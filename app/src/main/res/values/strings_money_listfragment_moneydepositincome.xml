@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="moneyDepositIncomeListFragment_action_moneyIncome_addnew">新增预收会费</string>
+    <string name="moneyDepositIncomeListFragment_title_all">全部预收会费</string>
+</resources>

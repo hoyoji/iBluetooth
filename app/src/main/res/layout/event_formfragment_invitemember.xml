@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hyj="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".InviteEventMemberFormFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+       <com.hoyoji.android.hyjframework.view.HyjTextField
+          android:id="@+id/inviteMemberMessageFormFragment_editText_title"
+          hyj:style="no_label"
+          android:layout_width="fill_parent"
+          android:layout_height="43dp"
+          hyj:labelText="@string/inviteMemberMessageFormFragment_textView_title"
+          hyj:hintText="@string/inviteMemberMessageFormFragment_editText_hint_title" />
+   
+        <View
+            android:id="@id/field_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line_divider" />
+        
+      <!-- <com.hoyoji.android.hyjframework.view.HyjRemarkField
+          android:id="@+id/inviteMemberMessageFormFragment_editText_detail"
+          hyj:style="no_label"
+          android:layout_width="fill_parent"
+          android:layout_height="43dp"
+          hyj:hintText="@string/inviteMemberMessageFormFragment_editText_hint_detail"
+          hyj:labelText="@string/inviteMemberMessageFormFragment_textView_detail" /> -->
+      
+      <EditText
+          android:id="@+id/inviteMemberMessageFormFragment_editText_detail"
+          android:layout_width="fill_parent"
+          android:layout_height="43dp"
+          android:background="@null"
+          android:textColor="@color/gray"
+          />
+      <View
+           android:id="@id/field_separator"
+           android:layout_width="match_parent"
+           android:layout_height="1dip"
+           android:layout_marginBottom="5dip"
+           android:layout_marginTop="5dip"
+           android:background="@drawable/line_divider" />
+      
+	    <TextView
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:text="@string/projectEventMemberFormFragment_textView_shareAuthorization_title" />
+
+		<CheckBox
+	      android:id="@+id/projectEventMemberFormFragment_checkBox_shareAuthorization_self"
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:text="@string/memberFormFragment_textView_shareAuthorization_title_self" />
+        
+        <View
+            android:id="@id/field_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line_divider" />
+        
+        <com.hoyoji.android.hyjframework.view.HyjTextField
+	        android:id="@+id/inviteEventMemberFormFragment_hyjTextField_verificationCode"
+	        android:layout_width="fill_parent"
+	        android:layout_height="43dp"
+	        hyj:hintText="无验证码"
+	        hyj:labelText="验证码" >
+	     </com.hoyoji.android.hyjframework.view.HyjTextField>
+	     
+        <View
+            android:id="@id/field_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line_divider" />
+
+        <Button
+            android:id="@+id/button_send_invite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/app_action_send_invite" />
+            
+    </LinearLayout>
+
+</ScrollView>

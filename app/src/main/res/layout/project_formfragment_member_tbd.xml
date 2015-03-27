@@ -1,0 +1,150 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hyj="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".memberTBDFormFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.hoyoji.android.hyjframework.view.HyjTextField
+            android:id="@+id/memberTBDFormFragment_textField_projectName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            hyj:labelText="@string/memberTBDFormFragment_textView_projectName" />
+
+        <View
+            android:id="@id/field_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line_divider" />
+
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/memberTBDFormFragment_textView_message"
+            />
+        
+        <Button
+            android:id="@+id/memberTBDFormFragment_button_transactions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rectangle"    
+            android:visibility="gone" 
+            android:text="查看拆分账务" />
+        
+       <!--  <CheckBox
+            android:id="@+id/memberTBDFormFragment_checkBox_delete_tbd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/memberTBDFormFragment_checkBox_delete_tbd" />
+         -->
+         
+        <View
+            android:id="@id/field_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/line_divider" />
+        
+		<FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/memberTBDFormFragment_apportionField_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="拆分成员" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/memberTBDFormFragment_imageButton_apportion_add_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_action_add_group" />
+
+                <ImageView
+                    android:id="@+id/memberTBDFormFragment_imageButton_apportion_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_action_add_person" />
+
+                <ImageView
+                    android:id="@+id/memberTBDFormFragment_imageButton_apportion_more_actions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_action_overflow" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <View
+            android:id="@id/field_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="2dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="2dip"
+            android:background="@drawable/line_divider" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:id="@+id/editText"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/gray"
+                android:text="请选择拆分成员"/>
+            <com.hoyoji.hoyoji.money.MoneyApportionField
+                android:id="@+id/memberTBDFormFragment_apportionField"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginBottom="5dip" />
+        </FrameLayout>
+
+        <View
+            android:id="@id/field_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/line_divider" />
+            
+        <Button
+            android:id="@id/button_save"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rectangle"     
+            android:text="拆分待定成员" />
+    </LinearLayout>
+
+</ScrollView>

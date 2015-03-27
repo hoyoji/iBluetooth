@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="inviteLinkFormFragment_title">链接</string>
+    
+    <string name="inviteLinkFormFragment_textView_date">时间</string>
+    <string name="inviteLinkFormFragment_editText_hint_date">无时间</string>
+    
+    <string name="inviteLinkFormFragment_hyjRemarkField_description">链接内容</string>
+    <string name="inviteLinkFormFragment_hyjRemarkField_hint_description">无内容</string>
+    
+    <string name="inviteLinkFormFragment_textView_state">链接状态</string>
+    <string name="inviteLinkFormFragment_editText_hint_state">无状态</string>
+    
+    <string name="inviteLinkFormFragment_button_closeLink">关闭链接</string>
+    <string name="inviteLinkFormFragment_button_openLink">打开链接</string>
+    
+    <string name="inviteLinkFormFragment_button_onSave">保存</string>
+    
+    <string name="inviteLinkFormFragment_action_change_title">链接</string>
+    <string name="inviteLinkFormFragment_action_change_content">正在修改链接状态&#8230;</string>
+    
+</resources>

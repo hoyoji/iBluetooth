@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="0dp" >
+
+    <com.hoyoji.android.hyjframework.view.HyjExpandableListView android:id="@id/android:list"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:divider="@drawable/line_divider"
+              android:dividerHeight="1dp"
+              android:childDivider="@drawable/line_divider"
+              android:drawSelectorOnTop="false"/>
+
+   <!--  <TextView android:id="@id/android:empty"
+        	  android:gravity="center_horizontal|center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="43dp"
+              android:background="@drawable/line_divider"
+              android:text="@string/app_listview_no_content"/> -->
+</FrameLayout>

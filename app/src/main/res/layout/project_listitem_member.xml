@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/activated_background_indicator"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:descendantFocusability="blocksDescendants">
+    
+ 	<com.hoyoji.android.hyjframework.view.HyjImageView android:id="@+id/memberListItem_picture"
+         android:layout_width="56dp"
+         android:layout_height="56dp"
+         android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="5dp"/>
+     
+		<!--  ================================= right side ============================ -->
+		
+	    <com.hoyoji.android.hyjframework.view.HyjNumericView android:id="@+id/memberListItem_actualTotal"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+	    	android:layout_alignParentRight="true"
+	    	android:layout_centerVertical="true"
+	    	android:textColor="@android:color/darker_gray"
+	    	android:text=""/>
+	    
+	    <com.hoyoji.android.hyjframework.view.HyjNumericView android:id="@+id/memberListItem_apportionTotal"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+	    	android:layout_alignParentRight="true"
+	    	android:layout_alignParentTop="true"
+	    	android:textColor="@android:color/darker_gray"
+	    	android:text=""/>
+	    
+	     <com.hoyoji.android.hyjframework.view.HyjNumericView android:id="@+id/memberListItem_settlement"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+	    	android:layout_alignParentRight="true"
+	    	android:layout_alignParentBottom="true"
+	    	android:text=""/>
+	     
+		<!-- ================================= left side ============================ -->
+	 
+		<com.hoyoji.android.hyjframework.view.HyjNumericView android:id="@+id/memberListItem_percentage"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/memberListItem_picture"
+			android:layout_alignParentTop="true"
+			android:layout_toLeftOf="@id/memberListItem_actualTotal"
+	    	android:gravity="center_vertical"
+	    	android:textSize="12sp"
+	    	android:textColor="@android:color/darker_gray"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:singleLine="true"/>
+		
+		<TextView android:id="@+id/memberListItem_name"  
+		    android:layout_width="wrap_content"   
+		    android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/memberListItem_picture"
+         	android:layout_centerVertical="true"
+			android:layout_toLeftOf="@id/memberListItem_apportionTotal"
+	    	android:gravity="center_vertical"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:singleLine="true"/>	
+	    	
+		<TextView android:id="@+id/memberListItem_remark"  
+		    android:layout_width="wrap_content"   
+		    android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/memberListItem_picture"
+			android:layout_alignParentBottom="true"
+			android:layout_toLeftOf="@id/memberListItem_settlement"
+	    	android:gravity="center_vertical"
+	    	android:textSize="12sp"
+	    	android:textColor="@android:color/darker_gray"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:singleLine="true"/>	
+
+</RelativeLayout>

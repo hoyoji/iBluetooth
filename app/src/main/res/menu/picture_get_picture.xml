@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:hoyoji="http://schemas.android.com/apk/res-auto">
+
+		<item
+        android:id="@+id/picture_take_picture"
+        hoyoji:showAsAction="always"
+        android:title="@string/app_take_picture"/>
+		<item
+        android:id="@+id/picture_import_picture"
+        hoyoji:showAsAction="always"
+        android:title="@string/app_import_picture"/>
+
+</menu>

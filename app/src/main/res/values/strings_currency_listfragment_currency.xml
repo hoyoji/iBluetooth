@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="currencyListFragment_action_currency_addnew">添加币种</string>
+    <string name="currencyListFragment_title_manage_currency">本币设置</string>
+    <string name="currencyListFragment_title_select_currency">选择币种</string>
+    
+</resources>

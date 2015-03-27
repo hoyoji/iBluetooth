@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changeNickNameFormFragment_title">修改昵称</string>
+    <string name="changeNickNameFormFragment_toast_changing">正在修改昵称</string>
+    
+    <string name="changeNickNameFormFragment_textView_nickName">昵称</string>
+    <string name="changeNickNameFormFragment_editText_hint_nickName">请输入昵称</string>
+    
+    <string name="changeNickNameFormFragment_validation_wrong_nickName">请输入昵称</string>
+    
+    <string name="changeNickNameFormFragment_button_onSave">提交</string>
+</resources>

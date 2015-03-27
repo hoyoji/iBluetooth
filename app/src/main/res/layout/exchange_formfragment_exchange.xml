@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+ 	xmlns:hyj="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ExchangeFormFragment" >
+
+   	<com.hoyoji.android.hyjframework.view.HyjSelectorField 
+           android:id="@+id/exchangeFormFragment_editText_localCurrency"
+	    android:layout_width="fill_parent"
+	    android:layout_height="43dp" 
+           hyj:labelText="@string/exchangeFormFragment_textView_localCurrency"
+           hyj:hintText="@string/exchangeFormFragment_editText_hint_localCurrency"
+       />
+   	
+   	 <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+   	
+   	<com.hoyoji.android.hyjframework.view.HyjSelectorField 
+           android:id="@+id/exchangeFormFragment_editText_foreignCurrency"
+	    android:layout_width="fill_parent"
+	    android:layout_height="43dp" 
+           hyj:labelText="@string/exchangeFormFragment_textView_foreignCurrency"
+           hyj:hintText="@string/exchangeFormFragment_editText_hint_foreignCurrency"
+       />
+   	
+   	 <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+   	
+   	<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+   	   	<com.hoyoji.android.hyjframework.view.HyjNumericField
+           android:id="@+id/exchangeFormFragment_editText_rate"
+	       android:layout_width="match_parent"
+	       android:layout_height="43dp" 
+           hyj:labelText="@string/exchangeFormFragment_textView_rate"
+           hyj:hintText="@string/exchangeFormFragment_editText_hint_rate">
+       
+        <requestFocus />
+        </com.hoyoji.android.hyjframework.view.HyjNumericField>
+
+   	   	<ImageView
+           	android:id="@+id/exchangeFormFragment_imageView_refresh_rate"
+   	   	    android:layout_width="wrap_content"
+   	   	    android:layout_height="43dp" 
+   	   	    android:src="@drawable/ic_action_refresh_rotate"
+   	   	    android:layout_gravity="right"/>
+     	   	</FrameLayout>
+    <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+    
+	<CheckBox
+	    android:id="@+id/exchangeFormFragment_checkBox_autoUpdate"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/exchangeFormFragment_textView_autoUpdate" />
+	
+    <TextView
+        android:id="@+id/exchangeFormFragment_checkBox_hint_autoUpdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exchangeFormFragment_checkBox_hint_autoUpdate" />
+	<View 
+        android:id="@+id/exchangeFormFragment_separatorField_autoUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+    
+	    
+	<Button
+	    android:id="@id/button_save"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+            android:background="@drawable/button_rectangle"     
+	    android:text="@string/app_action_save"/>
+	
+</LinearLayout>

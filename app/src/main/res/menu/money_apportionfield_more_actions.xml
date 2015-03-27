@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:hoyoji="http://schemas.android.com/apk/res-auto">
+
+		<!-- <item
+        android:id="@+id/moneyApportionField_menu_moreActions_add_non_project_member"
+        hoyoji:showAsAction="always"
+        android:title="@string/moneyApportionField_moreActions_add_non_project_member"/> -->
+		<item
+        android:id="@+id/moneyApportionField_menu_moreActions_clear"
+        hoyoji:showAsAction="always"
+        android:title="@string/moneyApportionField_moreActions_clear"/>
+		<item
+        android:id="@+id/moneyApportionField_menu_moreActions_all_average"
+        hoyoji:showAsAction="always"
+        android:title="@string/moneyApportionField_moreActions_all_average"/>
+		<item
+        android:id="@+id/moneyApportionField_menu_moreActions_all_share"
+        hoyoji:showAsAction="always"
+        android:title="@string/moneyApportionField_moreActions_all_share"/>
+
+</menu>

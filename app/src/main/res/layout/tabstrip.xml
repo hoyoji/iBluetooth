@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lllayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:baselineAligned="false"  >
+
+        <!-- <LinearLayout
+            android:id="@+id/id_tab_account_ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dip"
+            android:layout_margin="0dp" >
+
+            <TextView
+                android:id="@+id/id_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="账户"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout> -->
+
+        <!-- <LinearLayout
+            android:id="@+id/id_tab_project_ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+             android:orientation="horizontal"
+            android:padding="5dip" 
+            android:layout_margin="0dp">
+
+            <TextView
+                android:id="@+id/id_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="圈子"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_tab_home_ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+             android:orientation="horizontal"
+            android:padding="5dip" 
+            android:layout_margin="0dp">
+
+            <TextView
+                android:id="@+id/id_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="主页"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/id_tab_friend_ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+             android:orientation="horizontal"
+            android:padding="5dip" 
+            android:layout_margin="0dp">
+
+            <TextView
+                android:id="@+id/id_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="好友"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/id_tab_message_ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+             android:orientation="horizontal"
+            android:padding="5dip" 
+            android:layout_margin="0dp">
+
+            <TextView
+                android:id="@+id/id_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="消息"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout> -->
+    </LinearLayout>
+
+    <View
+        android:id="@+id/id_tab_line"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:background="@color/hoyoji_red" >
+    </View>
+     <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#E0E0E0" 
+        />
+</merge>

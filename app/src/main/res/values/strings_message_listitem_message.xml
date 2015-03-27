@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="messageListItem_fromUser_not_friend">非好友</string>
+	<string name="messageListItem_user_self">自己</string>
+    
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="registerActivity_title">iBluetooth 注册</string>
+    
+    <string name="registerActivity_action_register">注册</string>
+    <string name="registerActivity_ime_sign_in_short">注册</string>
+    
+    <string name="registerActivity_toast_register_success">注册成功！</string>
+    <string name="registerActivity_progress_register_title">正在注册</string>
+    <string name="registerActivity_progress_register_msg">正在注册，请稍后&#8230;</string>
+    
+ 	<string name="registerActivity_textView_username">用户名</string>
+    <string name="registerActivity_textView_password1">密码</string>
+    <string name="registerActivity_textView_password2">确认密码</string>
+    
+    <string name="registerActivity_editText_hint_username">请输入用户名</string>
+    <string name="registerActivity_editText_hint_password1">请输入密码</string>
+    <string name="registerActivity_editText_hint_password2">请再次输入密码</string>
+    
+    <string name="registerActivity_textView_localCurrency">默认币种</string>
+    <string name="registerActivity_editText_hint_localCurrency">请选择默认币种</string>
+    
+    <string name="registerActivity_validation_username_too_short">用户名不能少于3个字符</string>
+    <string name="registerActivity_validation_username_too_long">用户名不能超过15个字符</string>
+    <string name="registerActivity_validation_username_error_firstChar">用户名必须以字母开头，请重新输入</string>
+    <string name="registerActivity_validation_username_error_char">用户名只能由字母、数字和.-组成</string>
+    <string name="registerActivity_validation_username_error_qq">用户名不能由QQ开头</string>
+    <string name="registerActivity_validation_username_error_wx">用户名不能由WX开头</string>
+    <string name="registerActivity_validation_username_error_wb">用户名不能由WB开头</string>
+    <string name="registerActivity_validation_username_error_fb">用户名不能由FB开头</string>
+    <string name="registerActivity_validation_username_error_tt">用户名不能由TT开头</string>
+    <string name="registerActivity_validation_username_error_kx">用户名不能由KX开头</string>
+    <string name="registerActivity_validation_username_error_rr">用户名不能由RR开头</string>
+    <string name="registerActivity_validation_username_error_mb">用户名不能由MB开头</string>
+    <string name="registerActivity_validation_username_error_bd">用户名不能由DB开头</string>
+    <string name="registerActivity_validation_username_error_gg">用户名不能由GG开头</string>
+ 	<string name="registerActivity_validation_password_too_short">密码长度不对（6~18个字符）</string>
+ 	<string name="registerActivity_validation_password_too_simple">密码太简单</string>
+    <string name="registerActivity_validation_two_password_not_same">两次输入的密码不一样</string>
+   
+</resources>

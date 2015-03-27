@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hoyoji="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@id/multi_select_menu_more"
+        android:icon="@drawable/ic_action_overflow_white"
+        android:title="更多"
+        hoyoji:showAsAction="always">
+        <menu>
+            <item
+		        android:id="@+id/projectEventMemberListFragment_action_setUnSignUp"
+		        android:title="设置为未报名"
+		        android:icon="@drawable/ic_action_add_person"
+		        hoyoji:showAsAction="always"/>
+            <item
+		        android:id="@+id/projectEventMemberListFragment_action_setSignUp"
+		        android:title="设置为已报名"
+		        android:icon="@drawable/ic_action_add_person"
+		        hoyoji:showAsAction="always"/>
+            <item
+		        android:id="@+id/projectEventMemberListFragment_action_setUnSignIn"
+		        android:title="设置为未签到"
+		        android:icon="@drawable/ic_action_add_person"
+		        hoyoji:showAsAction="always"/>
+            <item
+		        android:id="@+id/projectEventMemberListFragment_action_setSignIn"
+		        android:title="设置为已签到"
+		        android:icon="@drawable/ic_action_add_person"
+		        hoyoji:showAsAction="always"/>
+		
+		    
+        </menu>
+	</item> 
+
+</menu>

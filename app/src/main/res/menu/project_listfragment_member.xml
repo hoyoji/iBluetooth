@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hoyoji="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/memberListFragment_action_member_add"
+        android:title="@string/memberListFragment_action_member_addnew"
+        android:icon="@drawable/ic_action_new_white"
+        hoyoji:showAsAction="always">
+        <menu>
+            <item
+		        android:id="@+id/memberListFragment_action_member_addnew"
+		        android:title="@string/memberListFragment_action_member_addnew"
+		        android:icon="@drawable/ic_action_share"
+		        hoyoji:showAsAction="always"/>
+		    <item
+		        android:id="@+id/memberListFragment_action_member_invite_qqFriend"
+		        android:title="@string/memberListFragment_action_member_invite_qqFriend"
+		        android:icon="@drawable/ic_action_cc_bcc"
+		        hoyoji:showAsAction="always"/>
+		    <item
+		        android:id="@+id/memberListFragment_action_member_invite_wxFriend"
+		        android:title="@string/memberListFragment_action_member_invite_wxFriend"
+		        android:icon="@drawable/ic_action_cc_bcc"
+		        hoyoji:showAsAction="always"/>
+		    <item
+		        android:id="@+id/memberListFragment_action_member_invite_wxCircleFriend"
+		        android:title="@string/memberListFragment_action_member_invite_wxCircleFriend"
+		        android:icon="@drawable/ic_action_cc_bcc"
+		        hoyoji:showAsAction="always"/>
+		    <item
+		        android:id="@+id/memberListFragment_action_member_invite"
+		        android:title="@string/memberListFragment_action_member_invite"
+		        android:icon="@drawable/ic_action_cc_bcc"
+		        hoyoji:showAsAction="always"/>
+        </menu>
+	</item>
+
+</menu>

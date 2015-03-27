@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="loginActivity_title">iBluetooth 登录</string>
+
+    <!-- Strings related to login -->
+    <string name="loginActivity_editText_hint_username">用户名</string>
+    <string name="loginActivity_editText_hint_password">密码</string>
+    
+    <string name="loginActivity_action_find_password">找回密码</string>
+    
+    <string name="loginActivity_action_sign_in">登录</string>
+    <string name="loginActivity_button_register">注册</string>
+    <string name="loginActivity_ime_sign_in_short">登录</string>
+    
+    <string name="loginActivity_action_forgot_password">找回密码</string>
+    
+    <string name="loginActivity_progress_signing_in">正在登录&#8230;</string>
+    
+    <string name="loginActivity_error_invalid_username">无效用户名</string>
+    <string name="loginActivity_error_invalid_password">密码太短</string>
+    <string name="loginActivity_error_incorrect_password">密码不正确</string>
+    <string name="loginActivity_error_field_required">请输入</string>
+
+    <string name="loginActivity_alert_require_login">您尚未登录，是否要进行登录？</string>
+    <string name="loginActivity_auto_sign_in">下次自动登录</string>
+    
+</resources>

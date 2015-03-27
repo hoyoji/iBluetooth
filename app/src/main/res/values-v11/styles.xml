@@ -1,0 +1,37 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <!-- <style name="AppBaseTheme" parent="android:Theme.Light">
+       
+          Theme customizations available in newer API levels can go in  
+          res/values-vXX/styles.xml, while customizations related to  
+          backward-compatibility can go here.  
+       
+      Implementation of attributes needed for the navigation drawer as the default implementation is based on API-14.  
+      <item name="hoyoji_listPreferredItemHeightSmall">48dip</item>  
+      <item name="hoyoji_textAppearanceListItemSmall">@style/HoYoJiDrawerMenu</item>  
+      <item name="hoyoji_activatedBackgroundIndicator">@android:color/transparent</item>  
+  </style>   -->
+  
+	<!-- Application theme. -->
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
+        <item name="android:windowBackground">@android:color/background_light</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+        <item name="android:colorForeground">@android:color/background_dark</item>
+        <item name="android:colorForegroundInverse">@android:color/background_light</item>
+        
+        
+       <!--  <item name="colorForeground">@android:color/bright_foreground_holo_light</item>
+        <item name="colorForegroundInverse">@android:color/bright_foreground_inverse_holo_light</item>
+        <item name="colorBackground">@android:color/background_holo_light</item>
+        <item name="colorBackgroundCacheHint">@android:drawable/background_cache_hint_selector_holo_light</item> -->
+        
+         <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+    </style>
+
+</resources>

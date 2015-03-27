@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="projectEventListFragment_title">圈子活动</string>
+    <string name="projectEventListFragment_action_addnew">新增活动</string>
+    
+</resources>

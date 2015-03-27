@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string name="moneyApportionDialogFragment_textView_amount">分摊金额</string>
+   <string name="moneyApportionDialogFragment_editText_hint_amount">请输入金额</string>
+   <string name="moneyApportionDialogFragment_editText_validationError_negative_amount">金额不能为负数</string>
+   <string name="moneyApportionDialogFragment_editText_validationError_beyondMAX_amount">金额超出范围</string>
+   
+   <string name="moneyApportionDialogFragment_spinnerField_apportionType">分摊类型</string>
+      
+   <string-array name="moneyApportionDialogFragment_spinnerField_apportionType_array">
+        <item>平均分摊</item>
+        <item>定额分摊</item>
+        <item>占股分摊</item>
+    </string-array>
+    
+   <string-array name="moneyApportionDialogFragment_spinnerField_apportionType_array_non_project_member">
+        <item>平均分摊</item>
+        <item>定额分摊</item>
+    </string-array>
+</resources>

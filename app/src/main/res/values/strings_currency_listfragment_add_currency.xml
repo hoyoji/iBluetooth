@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   <string name="addCurrencyListFragment_title_add">添加货币</string>
+   <string name="currencyListFragment_addCurrency_searchView_hint">请输入货币名称或代码</string>
+   <string name="currencyListFragment_addCurrency_toast_success">货币添加成功</string>
+</resources>

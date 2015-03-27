@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/projectListItem_picture"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/abc_tab_indicator_ab_holo"
+        android:clickable="true" />
+    
+    <ImageButton
+        android:id="@+id/projectListItem_action_viewSubProjects"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/abc_tab_indicator_ab_holo"
+        android:src="@drawable/ic_action_next_item" />
+    
+	    <com.hoyoji.android.hyjframework.view.HyjNumericView 
+	        android:id="@+id/projectListItem_depositTotal"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+			android:layout_toLeftOf="@id/projectListItem_action_viewSubProjects"
+			android:layout_centerVertical="true"
+	    	android:textColor="@android:color/darker_gray"/>
+<!-- 	    <TextView 
+	        android:id="@+id/projectListItem_depositTotalLabel"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+			android:layout_toLeftOf="@id/projectListItem_action_viewSubProjects"
+			android:layout_above="@id/projectListItem_depositTotal"
+		    android:textSize="10sp"
+		    android:textColor="@android:color/darker_gray"
+		    android:text="圈子结余"/> -->
+	
+	    <TextView
+	        android:id="@+id/projectListItem_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:layout_toRightOf="@id/projectListItem_picture"
+	        android:layout_toLeftOf="@id/projectListItem_depositTotal"
+	        android:layout_centerVertical="true"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:singleLine="true"/>
+	    
+    	<TextView 
+	        android:id="@+id/projectListItem_owner"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:layout_toRightOf="@id/projectListItem_picture"
+			android:layout_alignBottom="@id/projectListItem_picture"
+		    android:textSize="10sp"
+		    android:textColor="@android:color/darker_gray"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:singleLine="true"/>
+		    
+<!-- 	    <TextView 
+	        android:id="@+id/projectListItem_inOutTotalLabel"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="right"
+		    android:textSize="10sp"
+		    android:textColor="@android:color/darker_gray"
+		    android:text="收支结余"
+	    	android:visibility="gone"/>
+	     <com.hoyoji.android.hyjframework.view.HyjNumericView 
+	        android:id="@+id/projectListItem_inOutTotal"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+	    	android:textColor="@android:color/darker_gray"
+	    	android:visibility="gone"/> -->
+	    
+</RelativeLayout>

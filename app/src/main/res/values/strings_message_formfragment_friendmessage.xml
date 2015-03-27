@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+   <string name="friendAddRequestMessageFormFragment_title_addrequest">添加好友请求</string>
+   <string name="friendAddRequestMessageFormFragment_title_addresponse">添加好友回复</string>
+   <string name="friendAddRequestMessageFormFragment_title_delete">删除好友</string>
+   
+   <string name="friendAddRequestMessageFormFragment_textView_date_send">发送时间</string>
+   <string name="friendAddRequestMessageFormFragment_textView_date_receive">接收时间</string>
+   
+   <string name="friendAddRequestMessageFormFragment_textView_fromUser">发送人</string>
+   <string name="friendAddRequestMessageFormFragment_textView_toUser">接收人</string>
+   <string name="friendAddRequestMessageFormFragment_editText_hint_toUser">无好友名称</string>
+   
+   <string name="friendAddRequestMessageFormFragment_textView_title">消息标题</string>
+   <string name="friendAddRequestMessageFormFragment_editText_hint_title">无消息标题</string>
+ 
+   <string name="friendAddRequestMessageFormFragment_textView_detail">消息内容</string>
+   <string name="friendAddRequestMessageFormFragment_editText_hint_detail">请输入消息内容</string>
+ 
+   <string name="friendAddRequestMessageFormFragment_button_resend">发送</string>
+   <string name="friendAddRequestMessageFormFragment_button_accept">接受</string>
+   
+   
+   <string name="friendAddRequestMessageFormFragment_toast_resend_success">添加好友请求已重新发送，请等待该用户回复</string>
+   <string name="friendAddRequestMessageFormFragment_toast_accept_success">已成功接受并添加该用户为好友</string>
+   <string name="friendAddRequestMessageFormFragment_toast_cannot_get_user">无法从服务器上获取用户资料，操作失败</string>
+    
+</resources>

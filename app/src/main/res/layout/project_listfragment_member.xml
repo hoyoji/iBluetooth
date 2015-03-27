@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+   		android:paddingBottom="0dp"
+    	android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+    	android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <com.hoyoji.android.hyjframework.view.HyjListView android:id="@id/android:list"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:divider="@drawable/line_divider"
+              android:dividerHeight="1dp"
+              android:drawSelectorOnTop="false"/>
+
+   <!--  <TextView android:id="@id/android:empty"
+        	  android:gravity="center_horizontal|center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="43dp"
+              android:background="@drawable/line_divider"
+              android:text="@string/app_listview_no_content"/> -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="48dp"
+        android:background="@color/hoyoji_lightgray" />
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#EEFFFFFF"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/projectListFragment_action_money_account"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/actionBarItemBackground"
+            android:padding="0dp"
+            android:text="@string/homeListFragment_action_money_account"
+            android:visibility="gone"
+            android:textSize="16sp" />
+       
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/homeListFragment_event_action_money_topup"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+    			android:background="?attr/actionBarItemBackground"
+                android:padding="0dp"
+                android:text="充值卡"
+            android:visibility="gone"
+                android:textSize="16sp" />
+    </LinearLayout>
+              
+        <ImageButton 
+            android:id="@+id/projectmember_listfragment_addnew"
+	        android:layout_width="55dp"
+	        android:layout_height="55dp"
+	        android:layout_gravity="center_horizontal|bottom"
+	        android:background="@drawable/hoyoji_addnew"
+        />
+</FrameLayout>

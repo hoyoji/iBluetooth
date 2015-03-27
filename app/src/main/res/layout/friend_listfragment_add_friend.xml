@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hoyoji="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+	<android.support.v7.widget.SearchView
+	    android:id="@+id/friendListFragment_addFriend_searchView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    hoyoji:queryHint="@string/friendListFragment_addFriend_searchView_hint"
+        hoyoji:iconifiedByDefault="false">
+        <requestFocus />
+	</android.support.v7.widget.SearchView>
+
+<!-- 	<ImageButton
+	    android:id="@+id/friendListFragment_searchFriend"
+	    android:layout_width="40dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="right"
+	    android:background="@android:color/transparent"
+	    android:src="@drawable/ic_action_search" />
+ -->
+
+    <com.hoyoji.android.hyjframework.view.HyjListView android:id="@id/android:list"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:divider="@drawable/line_divider"
+              android:dividerHeight="1dp"
+              android:drawSelectorOnTop="false"/>
+
+    <!-- <TextView android:id="@id/android:empty"
+        	  android:gravity="center_horizontal|center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="43dp"
+              android:background="@drawable/line_divider"
+              android:text="@string/app_listview_no_content"/> -->
+</LinearLayout>

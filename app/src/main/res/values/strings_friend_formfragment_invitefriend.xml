@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="inviteFriendFormFragment_send_title">邀请好友</string>
+    
+   <string name="inviteFriendFormFragment_textView_title">消息标题</string>
+   <string name="inviteFriendFormFragment_editText_hint_title">无消息标题</string>
+   
+   <string name="inviteFriendFormFragment_textView_detail">消息内容</string>
+   <string name="inviteFriendFormFragment_editText_hint_detail">请输入消息内容</string>
+   
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="moneyTransferListFragment_action_moneyTransfer_addnew">新增转账</string>
+    <string name="moneyTransferListFragment_title_all">全部转账</string>
+</resources>

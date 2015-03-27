@@ -1,0 +1,71 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .gitignore
+* README.md
+* classpath
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/Baidu-Frontia-Android-2.0.6.jar => app/libs/Baidu-Frontia-Android-2.0.6.jar
+* libs/BaiduLBS_Android.jar => app/libs/BaiduLBS_Android.jar
+* libs/Xg_sdk_v2.37.jar => app/libs/Xg_sdk_v2.37.jar
+* libs/android_api_1.1_forsdk.jar => app/libs/android_api_1.1_forsdk.jar
+* libs/armeabi-v7a/libBaiduMapSDK_v3_3_0_15.so => app/src/main/jniLibs/armeabi-v7a/libBaiduMapSDK_v3_3_0_15.so
+* libs/armeabi-v7a/liblocSDK5.so => app/src/main/jniLibs/armeabi-v7a/liblocSDK5.so
+* libs/armeabi-v7a/libtpnsSecurity.so => app/src/main/jniLibs/armeabi-v7a/libtpnsSecurity.so
+* libs/armeabi-v7a/libtpnsWatchdog.so => app/src/main/jniLibs/armeabi-v7a/libtpnsWatchdog.so
+* libs/armeabi/libBaiduMapSDK_v3_3_0_15.so => app/src/main/jniLibs/armeabi/libBaiduMapSDK_v3_3_0_15.so
+* libs/armeabi/libapp_BaiduNaviApplib_v1_0_0.so => app/src/main/jniLibs/armeabi/libapp_BaiduNaviApplib_v1_0_0.so
+* libs/armeabi/libapp_BaiduPanoApplib.so => app/src/main/jniLibs/armeabi/libapp_BaiduPanoApplib.so
+* libs/armeabi/libbdpush_V2_0.so => app/src/main/jniLibs/armeabi/libbdpush_V2_0.so
+* libs/armeabi/liblocSDK5.so => app/src/main/jniLibs/armeabi/liblocSDK5.so
+* libs/armeabi/liblocnaviSDK.so => app/src/main/jniLibs/armeabi/liblocnaviSDK.so
+* libs/armeabi/libtpnsSecurity.so => app/src/main/jniLibs/armeabi/libtpnsSecurity.so
+* libs/armeabi/libtpnsWatchdog.so => app/src/main/jniLibs/armeabi/libtpnsWatchdog.so
+* libs/badgeview.jar => app/libs/badgeview.jar
+* libs/galaxy_mini.jar => app/libs/galaxy_mini.jar
+* libs/ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar => app/libs/ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar
+* libs/libammsdk.jar => app/libs/libammsdk.jar
+* libs/mid-sdk-2.10.jar => app/libs/mid-sdk-2.10.jar
+* libs/mips/libbdpush_V2_0.so => app/src/main/jniLibs/mips/libbdpush_V2_0.so
+* libs/mips/libtpnsSecurity.so => app/src/main/jniLibs/mips/libtpnsSecurity.so
+* libs/mips/libtpnsWatchdog.so => app/src/main/jniLibs/mips/libtpnsWatchdog.so
+* libs/mta-sdk-1.6.2.jar => app/libs/mta-sdk-1.6.2.jar
+* libs/svn2924_open_sdk.jar => app/libs/svn2924_open_sdk.jar
+* libs/weibosdkcore.jar => app/libs/weibosdkcore.jar
+* libs/wup-1.0.0-SNAPSHOT.jar => app/libs/wup-1.0.0-SNAPSHOT.jar
+* libs/x86/libbdpush_V2_0.so => app/src/main/jniLibs/x86/libbdpush_V2_0.so
+* libs/x86/libtpnsSecurity.so => app/src/main/jniLibs/x86/libtpnsSecurity.so
+* libs/x86/libtpnsWatchdog.so => app/src/main/jniLibs/x86/libtpnsWatchdog.so
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

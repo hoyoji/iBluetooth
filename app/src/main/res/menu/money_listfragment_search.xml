@@ -1,0 +1,95 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hoyoji="http://schemas.android.com/apk/res-auto" >
+            
+    	<item
+        android:id="@+id/searchListFragment_action_search"
+        android:title="@string/app_action_search"
+        android:icon="@drawable/ic_action_search_white"
+        hoyoji:showAsAction="always"/>
+        
+    	<item
+        android:id="@+id/mainActivity_action_money_addnew"
+        android:icon="@drawable/ic_action_new_white"
+        android:title="@string/mainActivity_action_money_addnew"
+        hoyoji:showAsAction="always">
+       <!--  <menu>
+            <item
+                android:id="@+id/mainActivity_action_money_addnew_expense"
+                android:title="支出"
+                hoyoji:showAsAction="never"/>
+            <item
+                android:id="@+id/mainActivity_action_money_addnew_income"
+                android:title="收入"
+                hoyoji:showAsAction="never"/>
+            <item
+                android:id="@+id/mainActivity_action_money_addnew_transfer"
+                android:title="转账"
+                hoyoji:showAsAction="never"/>
+            <item
+                android:id="@+id/mainActivity_action_money_addnew_debt"
+                android:title="借贷"
+                hoyoji:showAsAction="never">
+                <menu>
+                    <item
+                        android:id="@+id/mainActivity_action_money_addnew_borrow"
+                        android:title="借入"
+                        hoyoji:showAsAction="never"/>
+                    <item
+                        android:id="@+id/mainActivity_action_money_addnew_lend"
+                        android:title="借出"
+                        hoyoji:showAsAction="never"/>
+                    <item
+                        android:id="@+id/mainActivity_action_money_addnew_return"
+                        android:title="还款"
+                        hoyoji:showAsAction="never"/>
+                    <item
+                        android:id="@+id/mainActivity_action_money_addnew_payback"
+                        android:title="收款"
+                        hoyoji:showAsAction="never"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/mainActivity_action_money_addnew_topup"
+                android:title="会费"
+                hoyoji:showAsAction="never">
+                <menu>
+                    <item
+                        android:id="@+id/mainActivity_action_money_addnew_depositExpense"
+                        android:title="预缴会费"
+                        hoyoji:showAsAction="never"/>
+                    <item
+                        android:id="@+id/mainActivity_action_money_addnew_depositIncome"
+                        android:title="预收会费"
+                        hoyoji:showAsAction="never"/>
+                    <item
+                        android:id="@+id/mainActivity_action_money_addnew_depositReturn"
+                        android:title="会费退款"
+                        hoyoji:showAsAction="never"/>
+                    <item
+                        android:id="@+id/mainActivity_action_money_addnew_depositPayback"
+                        android:title="会费收回"
+                        hoyoji:showAsAction="never"/>
+                </menu>
+            </item>
+        </menu> -->
+    </item>
+    	
+    
+    <!-- <item
+        android:id="@+id/searchListFragment_action_more"
+        android:title="@string/homeListFragment_action_more"
+        android:icon="@drawable/ic_action_overflow_white"
+        hoyoji:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/searchListFragment_action_display_transaction_type_personal"
+                android:title="@string/homeListFragment_action_display_transaction_type_personal"
+                hoyoji:showAsAction="never"/>
+            <item
+                android:id="@+id/searchListFragment_action_display_transaction_type_project"
+                android:title="@string/homeListFragment_action_display_transaction_type_project"
+                hoyoji:showAsAction="never"/>
+        </menu>
+	</item>
+ -->
+</menu>

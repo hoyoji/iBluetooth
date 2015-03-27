@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="hyjCalculatorFormFragment_title">计算器</string>
+    <string name="hyjCalculatorFormFragment_editText_hint_username">用户名</string>
+    <string name="hyjCalculatorFormFragment_editText_hint_password">密码</string>
+    
+</resources>

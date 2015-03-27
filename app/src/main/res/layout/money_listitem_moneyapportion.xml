@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:descendantFocusability="blocksDescendants" >
+
+        <com.hoyoji.android.hyjframework.view.HyjImageView
+            android:id="@+id/moneyApportionListItem_picture"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp" />
+
+            <TextView
+                android:id="@+id/moneyApportionListItem_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_toRightOf="@id/moneyApportionListItem_picture"
+				android:layout_alignParentTop="true"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/moneyApportionListItem_friendName"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+				android:layout_toRightOf="@id/moneyApportionListItem_picture"
+				android:layout_alignTop="@id/moneyApportionListItem_picture"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/moneyApportionListItem_apportionType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_toRightOf="@id/moneyApportionListItem_picture"
+				android:layout_alignBottom="@id/moneyApportionListItem_picture"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+    <com.hoyoji.android.hyjframework.view.HyjNumericView
+        android:id="@+id/moneyApportionListItem_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/moneyApportionListItem_picture"
+		android:gravity="center"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+</RelativeLayout>

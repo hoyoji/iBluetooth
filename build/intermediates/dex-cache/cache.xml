@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/classes-089ff14d85f378746bdf0c27b8ff34befecc164c.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9a37468955173d95b5b23d7ee29ef5713e94dd50">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/BaiduLBS_Android-05f8737a7bda0db4eaa410e1bdc3cd14c85cc392.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c1f63f70671d69ee38379728e1192db82e289246">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/libammsdk-39a7acacae7dcd2f08f5f79cad844ef9e63b04fb.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/Baidu-Frontia-Android-2.0.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="286c586042c53f955746baa509d1e0319c0c55d2">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/Baidu-Frontia-Android-2.0.6-184f92e6968161e41966c5df138b11635702dfcc.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="62681b8212ca52278feafec31775fd0cb096d99a">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-3.3.0-jar-with-dependencies-20942df164f20797d14e7b64eb1c59b40ca2eecc.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/weibosdkcore.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd767db6c90e98697ee1ca76372b806828c6ff50">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/weibosdkcore-0dd3b7f0b1d5b8ed874ccbb4a8572eea64b03f04.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/svn2924_open_sdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9713db0c781e0159b783ee736e6d455fa86db8b3">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/svn2924_open_sdk-3b41e48e4b7bd6b46cb295e615d42463b0e923d1.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/wup-1.0.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a0845068801a0b9a3a144b7cf57cb650b3d467e5">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/wup-1.0.0-SNAPSHOT-d90b20fff699c42ae79406421bcca8e73e616a7c.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/galaxy_mini.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="58de9ecfba229dbb2c3eb3f45dbe284ba58100ea">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/galaxy_mini-888cb5b229e597a0b2dcb8ed2418d61fd94f92bd.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/mta-sdk-1.6.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/mta-sdk-1.6.2-0c229a736b40605cb38e7aad53ee6ff283e0ce66.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/android_api_1.1_forsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="610ab8a4952cfec5cc008a697790e21dec7b8d3a">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/android_api_1.1_forsdk-7fc8bfad1e9fcb5fb94153487a7791cfb671ccc8.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/Xg_sdk_v2.37.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6e65d04d565ad54cba3cfcc0d052d8d311942d41">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/Xg_sdk_v2.37-88cba1073d53f12c846c889078f2dcf8dc71c05e.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/mid-sdk-2.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b8c105b39a07ec1c2ca81919d64eac5482dca87">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/mid-sdk-2.10-8fff8ac67b269fba089e2a5852e89236592c8086.jar" />
+    </item>
+    <item
+        jar="/Applications/ADT/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-52f14c21abb068b54dfab9a0c3aa5eda42cda328.jar" />
+    </item>
+    <item
+        jar="/Users/admin/AndroidstudioProjects/BTControl/app/libs/badgeview.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f4b611513eb2b1eea3c6b3b1077aacbc611cc21a">
+        <dex dex="/Users/admin/AndroidstudioProjects/BTControl/app/build/intermediates/pre-dexed/debug/badgeview-e70b36cc0bd67ed1aa66e57e3fa1302d54964230.jar" />
+    </item>
+
+</items>

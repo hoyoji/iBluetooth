@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+   <string name="memberFormFragment_title_addnew">添加圈子成员</string>
+   <string name="memberFormFragment_title_edit">修改圈子成员</string>
+   
+   <string name="memberFormFragment_progress_adding">正在添加圈子成员</string>
+   <string name="memberFormFragment_progress_saving">正在保存&#8230;</string>
+   <string name="memberFormFragment_progress_inviting">正在邀请&#8230;</string>
+   <string name="memberFormFragment_toast_share_request_sent_success">圈子共享请求发送成功，请等待回复</string>
+   <string name="memberFormFragment_toast_share_edit_success">保存成功</string>
+   <string name="memberFormFragment_toast_share_add_success">成功添加圈子成员</string>
+   
+   <string name="memberFormFragment_textView_projectName">圈子名称</string>
+   
+   <string name="memberFormFragment_textView_friend">好友名称</string>
+   <string name="memberFormFragment_editText_hint_friend">请选择圈子好友</string>
+   <string name="memberFormFragment_toast_friend_already_exists">该好友已经是圈子成员</string>
+    
+   <string name="memberFormFragment_textView_sharePercentageType">占股类型</string>
+   <string name="memberFormFragment_editText_hint_sharePercentageType">请选择占股类型</string>
+   <string name="memberFormFragment_sharePercentageType_fixed">固定占股</string>
+   <string name="memberFormFragment_sharePercentageType_average">均分占股</string>
+   
+   
+   <string name="memberFormFragment_textView_sharePercentage">占股比例(%)</string>
+   <string name="memberFormFragment_editText_hint_sharePercentage">请输入占股比例</string>
+   <string name="memberFormFragment_editText_error_sharePercentage">占股总和不为100.00</string>
+   
+   <string name="memberFormFragment_checkBox_shareAllSubProjects">共享所有子圈子</string>
+   <string name="memberFormFragment_checkBox_hint_shareAllSubProjects">新增账务时，账务金额在成员间自动分摊</string>
+   
+   <string name="memberFormFragment_textView_shareAuthorization_title">账务权限</string>
+   <string name="memberFormFragment_textView_shareAuthorization_title_self">只允许查看与自己相关的账务</string>
+   <string name="memberFormFragment_textView_shareAuthorization_title_add">允许新增账务</string>
+   <string name="memberFormFragment_textView_shareAuthorization_title_edit">允许修改自己的账务</string>
+   <string name="memberFormFragment_textView_shareAuthorization_title_delete">允许删除自己的账务</string>
+   
+   <string name="memberFormFragment_textView_send_invite">发送消息给邀请好友共享圈子。\n如果不发送，您可以在该圈子下记录与该好友相关的账务，但是该好友将看不到该圈子的数据。</string>
+   <string name="memberFormFragment_button_send_invite">邀请好友共享圈子</string>
+   
+   <string name="memberFormFragment_textView_shareAuthorization_expense">支出</string>
+   <string name="memberFormFragment_textView_shareAuthorization_income">收入</string>
+   <string name="memberFormFragment_textView_shareAuthorization_borrow">借入</string>
+   <string name="memberFormFragment_textView_shareAuthorization_lend">借出</string>
+   <string name="memberFormFragment_textView_shareAuthorization_return">还款</string>
+   <string name="memberFormFragment_textView_shareAuthorization_payback">收款</string>
+
+</resources>

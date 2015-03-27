@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+   <string name="explainFinancialOwnerFragment_title">财务负责人</string>
+   <string name="explainFinancialOwnerFragment_textView_explain_financialOwner">
+        \t\t 建议多人记账的团体活动时设置，把所有参与人员在活动中的应付应收直接和财务负责人挂钩，形成和财务负责人之间的借贷关系，便于统计和结算。\n
+		\t\t以30人的大学聚会为例，假设有五个组织者：ABCDE，这五人订场地、订餐、买水果零食、收聚会费等，各有职务，各自记账。现设置A为财务负责人，假如B订聚会场地用了600元（20元/人），C买水果零食300元（10元/人），那么\n
+		\t\tB还应从A处收回570元\n
+		\t\tC还应从A处收回270元\n
+		\t\tA还应从剩下的27位成员处每人收回30元即810元，还给B 570元，还给C 270元\n
+		\t\t这样无论ABCDE谁记的账，每个成员都只需和A结算就可以了。\n
+
+	</string>
+	
+   <string name="explainFinancialOwnerFragment_textView_explain_project">
+		在多人记账时，财务负责人的作用是把记账人和参与者之间的借贷转为与财务负责人之间的借贷，从而简化成员间的债务关系，便于结算。
+		\n\n\n
+		在记账时选择财务负责人有如下意义：\n\n
+		<b>支出：</b>\n
+		记账人代财务负责人付款，财务负责人再把这笔支出分摊给参与者\n\n
+		<b>收入：</b>\n
+		记账人代财务负责人收款，财务负责人再把这笔收入分摊给参与者\n\n
+		<b>预收会费：</b>\n
+		记账人代财务负责人收款\n\n
+		<b>预缴会费：</b>\n
+		记账人先缴会费给收款人，收款人再把会费缴给财务负责人，即收款人代财务负责人收会费，最终记账人看到自己把会费缴给财务责任人\n\n
+		<b>会费退款：</b>\n
+		记账人代财务负责人退款\n\n
+		<b>会费收回：</b>\n
+		记账人从付款方收回会费，而这会费是财务负责人让付款方代为退回的，即付款方代财务负责人退会费，最终记账人看到自己从财务负责人处收回会费\n\n
+	</string>
+	
+    <string name="explainFinancialOwnerFragment_textView_explain_expense">
+		\t\t建议多人记账的团体活动时设置，记账人代财务负责人付款，财务负责人再把这笔支出分摊给参与者。\n
+	</string>
+	
+    <string name="explainFinancialOwnerFragment_textView_explain_income">
+		\t\t建议多人记账的团体活动时设置，记账人代财务负责人收款，财务负责人再把这笔收入分摊给参与者。\n
+	</string>
+	
+    <string name="explainFinancialOwnerFragment_textView_explain_depositeExpense">
+		\t\t建议多人记账的团体活动时设置，记账人先缴会费给收款人，收款人再把会费缴给财务负责人，即收款人代财务负责人收会费，最终记账人看到自己把会费缴给财务责任人\n
+	</string>
+	<string name="explainFinancialOwnerFragment_textView_explain_depositeIncome">
+		\t\t建议多人记账的团体活动时设置，记账人代财务负责人收款\n
+	</string>
+	<string name="explainFinancialOwnerFragment_textView_explain_depositePayback">
+		\t\t建议多人记账的团体活动时设置，记账人从付款方收回会费，而这会费是财务负责人让付款方代为退回的，即付款方代财务负责人退会费，最终记账人看到自己从财务负责人处收回会费\n
+	</string>
+	<string name="explainFinancialOwnerFragment_textView_explain_depositeReturn">
+		\t\t建议多人记账的团体活动时设置，记账人代财务负责人退款\n
+	</string>
+	
+   
+</resources>

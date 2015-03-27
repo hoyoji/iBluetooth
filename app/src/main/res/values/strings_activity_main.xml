@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mainActivity_action_settings">设置</string>
+    <string name="mainActivity_action_money_addnew">记一笔</string>
+    
+    <string name="mainActivity_section_title_moneyaccount">账户</string>
+    <string name="mainActivity_section_title_home">我的账务</string>
+    <string name="mainActivity_section_title_project">我的圈子</string>
+    <string name="mainActivity_section_title_event">我的活动</string>
+    <string name="mainActivity_section_title_friend">好友</string>
+    <string name="mainActivity_section_title_message">消息</string>
+    
+    <string name="mainActivity_drawer_open">打开侧栏</string>
+    <string name="mainActivity_drawer_close">关闭侧栏</string>
+    
+    <string-array name="mainActivity_drawer_list_titles">
+        <item>财务流水</item>
+        <item>财务报表</item>
+        <item>币种汇率</item>
+       <!--<item>消息管理</item>
+        <item>本币设置</item> 
+        <item>支出分类管理</item>
+        <item>收入分类管理</item>-->
+        <item>收支分类</item>
+        <item>设置</item>
+        <!-- <item>切换用户</item> -->
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="systemSettingFormFragment_title">系统设置</string>
+    
+    <string name="systemSettingFormFragment_textView_userName">用户名</string>
+    
+    <string name="systemSettingFormFragment_textView_nickName">昵称</string>
+    <string name="systemSettingFormFragment_editText_hint_nickName">请输入昵称</string>
+
+ 	<string name="systemSettingFormFragment_textView_email">电子邮箱</string>
+    <string name="systemSettingFormFragment_editText_hint_email">未绑定</string>
+    <string name="systemSettingFormFragment_button_emailBinding">绑定</string>
+    <string name="systemSettingFormFragment_toast_unBindEmail">解绑QQ</string>
+    
+    <string name="systemSettingFormFragment_textView_phone">手机</string>
+    <string name="systemSettingFormFragment_editText_hint_phone">未绑定</string>
+    <string name="systemSettingFormFragment_button_phoneBinding">绑定</string>
+    
+    <string name="systemSettingFormFragment_textView_QQ">QQ帐户</string>
+    <string name="systemSettingFormFragment_editText_hint_QQ">未绑定</string>
+    <string name="systemSettingFormFragment_button_QQBinding">绑定</string>
+    <string name="systemSettingFormFragment_toast_unBindQQ">解绑QQ</string>
+    <string name="systemSettingFormFragment_toast_unBindingQQ">正在解绑QQ&#8230;</string>
+    
+    <string name="systemSettingFormFragment_textView_WX">微信帐户</string>
+    <string name="systemSettingFormFragment_editText_hint_WX">未绑定</string>
+    <string name="systemSettingFormFragment_button_WXBinding">绑定</string>
+    <string name="systemSettingFormFragment_toast_unBindWX">解绑微信</string>
+    <string name="systemSettingFormFragment_toast_unBindingWX">正在解绑微信&#8230;</string>
+    
+    <string name="systemSettingFormFragment_textView_WB">微博帐户</string>
+    <string name="systemSettingFormFragment_editText_hint_WB">未绑定</string>
+    <string name="systemSettingFormFragment_button_WBBinding">绑定</string>
+    <string name="systemSettingFormFragment_toast_unBindWB">解绑微博</string>
+    <string name="systemSettingFormFragment_toast_unBindingWB">正在解绑微博&#8230;</string>
+    
+    <string name="systemSettingFormFragment_textView_password">登录密码</string>
+    <string name="systemSettingFormFragment_button_changePassword">修改密码</string>
+    
+    <string name="systemSettingFormFragment_textView_uploadPicture">上传大图</string>
+    <string name="systemSettingFormFragment_button_uploadPicture">无大图需要上传</string>
+    
+    <string name="systemSettingFormFragment_checkBox_validation_addFriend">加我为好友时是否需要验证</string>
+
+    <string name="systemSettingFormFragment_textView_moneyExpenseColor">支出颜色</string>
+    <string name="systemSettingFormFragment_button_moneyExpenseColorPicker">请选择支出金额颜色</string>
+    
+    <string name="systemSettingFormFragment_textView_moneyIncomeColor">收入颜色</string>
+    <string name="systemSettingFormFragment_button_moneyIncomeColorPicker">请选择收入金额颜色</string>
+    
+    <string name="systemSettingFormFragment_textView_about">版本</string>
+    <string name="systemSettingFormFragment_textView_version"></string>
+    
+    <string name="systemSettingFormFragment_textView_bindID">绑定账户</string>
+    
+    <string name="systemSettingFormFragment_button_bindQQ">绑定QQ</string>
+    <string name="systemSettingFormFragment_button_bindWX">绑定微信</string>
+    <string name="systemSettingFormFragment_button_bindWB">绑定微博</string>
+    <string name="systemSettingFormFragment_button_bindEmail">绑定邮箱</string>
+    
+</resources>

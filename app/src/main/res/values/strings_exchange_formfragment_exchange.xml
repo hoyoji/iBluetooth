@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+   <string name="exchangeFormFragment_title_addnew">创建汇率</string>
+   <string name="exchangeFormFragment_title_edit">汇率详细</string>
+   
+   <string name="exchangeFormFragment_textView_localCurrency">本地币种</string>
+   <string name="exchangeFormFragment_editText_hint_localCurrency">请选择本币币种</string>
+   
+   <string name="exchangeFormFragment_textView_foreignCurrency">外币币种</string>
+   <string name="exchangeFormFragment_editText_hint_foreignCurrency">请选择外币币种</string>
+   
+   <string name="exchangeFormFragment_textView_rate">汇率</string>
+   <string name="exchangeFormFragment_editText_hint_rate">请输入汇率</string>
+   
+   <string name="exchangeFormFragment_textView_autoUpdate">自动更新</string>
+   <string name="exchangeFormFragment_editText_hint_autoUpdate">请输入自动更新</string> 
+   <string name="exchangeFormFragment_checkBox_hint_autoUpdate">记账时如果从网上获取汇率系统自动更新该汇率</string> 
+   
+   <string name="exchangeFormFragment_toast_cannot_refresh_rate">无法获取汇率，请手工输入</string>
+   <string name="exchangeFormFragment_toast_select_currency">请先选择本币和外币</string> 
+   <string name="exchangeFormFragment_saveError_exchange_exist">当前外币汇率已存在，无需创建</string> 
+    
+</resources>

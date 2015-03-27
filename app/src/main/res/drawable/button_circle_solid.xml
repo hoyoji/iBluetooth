@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <layer-list xmlns:android="http://schemas.android.com/apk/res/android"> -->
+    
+    <!-- <item>
+        <shape android:shape="oval" >
+            <corners android:radius="45dp"/>
+            <solid android:color="@color/transparent" />
+            <size android:width="85dp" android:height="85dp"/>
+        </shape>
+    </item> -->
+    
+	<!-- <item android:bottom="4dp" android:right="4dp" android:top="4dp" android:left="4dp" > -->
+<!-- 	    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+	        <item android:state_pressed="true">
+				<shape android:shape="ring"
+				       android:innerRadiusRatio="2"
+				       android:thicknessRatio="1"
+				       android:useLevel="false">
+		            <corners android:radius="45dp"/>
+		            <solid android:color="@color/hoyoji_red" />
+		            <size android:width="40dp" android:height="40dp"/>
+        		</shape>
+			</item> -->
+	        <!-- 
+	        <item> -->
+		        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+		            	android:shape="oval" 
+				       	android:useLevel="false"
+				       >
+ 		            <solid android:color="@color/hoyoji_red" />
+		        </shape>
+	       <!--  </item> -->
+        <!-- 
+		</selector> -->
+	<!-- </item> -->
+	
+<!-- </layer-list> -->

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string name="moneyTransactionSummaryFragment_title_personal">个人汇总</string>
+   <string name="moneyTransactionSummaryFragment_title_project">圈子汇总</string>
+   
+</resources>

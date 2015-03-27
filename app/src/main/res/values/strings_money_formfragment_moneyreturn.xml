@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+   <string name="moneyReturnFormFragment_title_addnew">新增还款</string>
+   <string name="moneyReturnFormFragment_title_edit">还款详细</string>
+   
+   <string name="moneyReturnFormFragment_textView_picture">图片</string>
+   <string name="moneyReturnFormFragment_editText_hint_picture">请导入图片</string>
+   
+   <string name="moneyReturnFormFragment_textView_date">时间</string>
+   <string name="moneyReturnFormFragment_editText_hint_date">请选择时间</string>
+   
+   <string name="moneyReturnFormFragment_textView_amount">金额</string>
+   <string name="moneyReturnFormFragment_editText_hint_amount">请输入金额</string>
+   <string name="moneyReturnFormFragment_editText_validationError_negative_amount">金额不能为负数</string>
+   <string name="moneyReturnFormFragment_editText_validationError_beyondMAX_amount">金额超出范围</string>
+   
+   <string name="moneyReturnFormFragment_textView_interest">利息</string>
+   <string name="moneyReturnFormFragment_editText_hint_interest">请输入利息</string>
+   
+   <string name="moneyReturnFormFragment_textView_moneyAccount">账户</string>
+   <string name="moneyReturnFormFragment_editText_hint_moneyAccount">请选择账户</string>
+   
+   <string name="moneyReturnFormFragment_textView_project">圈子</string>
+   <string name="moneyReturnFormFragment_editText_hint_project">请选择圈子</string>
+   
+   <string name="moneyReturnFormFragment_textView_exchangeRate">汇率</string>
+   <string name="moneyReturnFormFragment_editText_hint_exchangeRate">请输入汇率</string>
+   <string name="moneyReturnFormFragment_editText_validationError_zero_exchangeRate">汇率不能为0</string>
+   <string name="moneyReturnFormFragment_editText_validationError_negative_exchangeRate">汇率不能为负数</string>
+   <string name="moneyReturnFormFragment_editText_validationError_beyondMAX_exchangeRate">汇率超出范围</string>
+   
+   <string name="moneyReturnFormFragment_textView_friend">债权人</string>
+   <string name="moneyReturnFormFragment_editText_hint_friend">请输入债权人</string>
+   <string name="moneyReturnFormFragment_editText_error_friend">自己不能作为债权人，请重新选择</string>
+   
+   <string name="moneyReturnFormFragment_textView_remark">备注</string>
+   <string name="moneyReturnFormFragment_editText_hint_remark">无备注</string>
+    
+   <string name="moneyReturnFormFragment_toast_cannot_refresh_rate">无法获取汇率，请手工输入</string>
+   <string name="moneyReturnFormFragment_toast_select_currency">请先选择账户和圈子</string> 
+    
+</resources>

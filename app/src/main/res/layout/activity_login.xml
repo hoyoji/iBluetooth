@@ -1,0 +1,98 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="@android:dimen/app_icon_size"
+    tools:context=".LoginActivity" >
+
+    <!-- Login form -->
+
+        <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+            
+        <LinearLayout
+            style="@style/LoginFormContainer"
+            android:layout_height="250dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/loginActivity_editText_hint_username"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/loginActivity_editText_hint_password"
+                android:imeActionId="@+id/imeAction_login"
+                android:imeActionLabel="@string/loginActivity_ime_sign_in_short"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <!-- <Button
+                android:id="@+id/button_find_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/loginActivity_action_find_password" /> -->
+
+            <Button
+                android:id="@+id/button_sign_in"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+            	android:background="@drawable/button_rectangle"     
+                android:text="@string/loginActivity_action_sign_in" />
+
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+            	android:background="@drawable/button_rectangle"     
+                android:text="@string/loginActivity_button_register" />
+
+            <ImageButton
+                android:id="@+id/button_sign_in_qq"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/qq_login"
+                android:text="用QQ帐号登录" />
+
+            <ImageButton
+                android:id="@+id/button_sign_in_wx"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/wx_login"
+                android:text="用微信账号登录" />
+
+            <ImageButton
+                android:id="@+id/button_sign_in_wb"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/weibo_login"
+                android:visibility="gone"
+                android:text="用Wb帐号登录" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</merge>

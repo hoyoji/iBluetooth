@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hoyoji="http://schemas.android.com/apk/res-auto" >
+    	
+    <item
+        android:id="@+id/mainActivity_action_sync"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/homeListFragment_action_sync"
+        hoyoji:actionLayout="@layout/actionbar_sync_button"
+        hoyoji:showAsAction="always"/> 
+
+    <item
+        android:id="@+id/homeListFragment_action_menu"
+        android:title="@string/homeListFragment_action_more"
+        android:icon="@drawable/ic_action_overflow_white"
+        hoyoji:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/homeListFragment_action_message"
+                android:title="消息管理"
+                hoyoji:showAsAction="never"/>
+            <item
+                android:id="@+id/homeListFragment_action_transactions"
+                android:title="财务流水"
+                hoyoji:showAsAction="never"/>
+            <item
+                android:id="@+id/homeListFragment_action_report"
+                android:title="财务报表"
+                hoyoji:showAsAction="never"/>
+            <item
+                android:id="@+id/homeListFragment_action_account"
+                android:title="资产账户"
+                hoyoji:showAsAction="never"/>
+            <item
+		        android:id="@+id/friendListFragment_action_friend_management"
+		        android:title="好友管理"
+		        hoyoji:showAsAction="never"/>
+            <item
+                android:id="@+id/homeListFragment_action_currency"
+                android:title="币种汇率"
+                hoyoji:showAsAction="never"/>
+            <item
+                android:id="@+id/homeListFragment_action_category"
+                android:title="收支分类"
+                hoyoji:showAsAction="never"/>
+            <item
+		        android:id="@+id/inviteLinkListFragment_action_invitelinks_management"
+		        android:title="链接管理"
+		        hoyoji:showAsAction="never"/>
+            <item
+                android:id="@+id/homeListFragment_action_setting"
+                android:title="设置"
+                hoyoji:showAsAction="never"/>
+        </menu>
+	</item>
+</menu>

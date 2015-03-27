@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hoyoji="http://schemas.android.com/apk/res-auto" >
+       <item
+           android:id="@+id/homeTopup_action_money_addnew_deposit"
+           android:title="会费"
+           hoyoji:showAsAction="never"/>
+       <item
+           android:id="@+id/homeTopup_action_money_addnew_debt"
+           android:title="借贷"
+           hoyoji:showAsAction="never"/>
+		<item
+           android:id="@+id/homeTopup_action_money_addnew_transfer"
+           android:title="转账"
+           hoyoji:showAsAction="never"/>
+       <item
+           android:id="@+id/homeTopup_action_money_addnew_topup"
+           android:title="充值卡充值"
+           hoyoji:showAsAction="never"/>
+</menu>

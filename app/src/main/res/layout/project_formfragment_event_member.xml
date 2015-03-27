@@ -1,0 +1,275 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hyj="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EventFormFragment" >
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <com.hoyoji.android.hyjframework.view.HyjDateTimeField
+        android:id="@+id/projectEventMemberFormFragment_hyjDateTimeField_date"
+        hyj:style="left_label"
+        android:layout_width="fill_parent"
+        android:layout_height="43dp"
+        android:gravity="right"
+        layout_gravity="center_horizonta" 
+        android:layout_gravity="right"
+        hyj:editTextBorder="none"
+        hyj:hintText="@string/projectEventMemberFormFragment_hyjDateTimeField_hint_date"
+        hyj:labelText="@string/projectEventMemberFormFragment_hyjDateTimeField_date" 
+        android:visibility="gone"/>
+    
+    <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        android:visibility="gone"
+        />
+    
+    <!--<com.hoyoji.android.hyjframework.view.HyjTextField
+        android:id="@+id/projectEventMemberFormFragment_textField_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        hyj:hintText="@string/projectEventMemberFormFragment_editText_hint_name"
+        hyj:labelText="@string/projectEventMemberFormFragment_textView_name" />
+
+     <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+     
+      <com.hoyoji.android.hyjframework.view.HyjTextField
+            android:id="@+id/projectEventMemberFormFragment_textField_projectName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            hyj:labelText="@string/projectEventMemberFormFragment_textView_projectName" />
+     
+     <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+      -->
+     <com.hoyoji.android.hyjframework.view.HyjTextField
+            android:id="@+id/projectEventMemberFormFragment_textField_eventName"
+            android:layout_width="fill_parent"
+            android:layout_height="43dp"
+            hyj:labelText="@string/projectEventMemberFormFragment_textView_eventName" />
+     
+     <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+    
+    <!-- <com.hoyoji.android.hyjframework.view.HyjRemarkField
+        android:id="@+id/projectEventMemberFormFragment_HyjRemarkField_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        hyj:hintText="@string/projectEventMemberFormFragment_hyjRemarkField_hint_description"
+        hyj:labelText="@string/projectEventMemberFormFragment_hyjRemarkField_description" />
+
+    -->
+    <com.hoyoji.android.hyjframework.view.HyjSelectorField
+        android:id="@+id/projectEventMemberFormFragment_selectorField_friend"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        hyj:hintText="@string/projectEventMemberFormFragment_selectorField_hint_friend"
+        hyj:labelText="@string/projectEventMemberFormFragment_selectorField_friend" >
+    </com.hoyoji.android.hyjframework.view.HyjSelectorField>
+       
+    <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+    
+    <com.hoyoji.android.hyjframework.view.HyjTextField
+       android:id="@+id/projectEventMemberFormFragment_hyjTextField_nickName"
+       android:layout_width="match_parent"
+       android:layout_height="43dp"
+       hyj:hintText="@string/projectEventMemberFormFragment_hyjTextField_hint_nickName"
+       hyj:labelText="@string/projectEventMemberFormFragment_hyjTextField_nickName" >
+        <Button
+            android:id="@+id/projectEventMemberFormFragment_button_nickName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+	        android:background="@drawable/button_circle_20"
+	        android:textSize="16sp"
+	        android:visibility="gone"
+       	    android:gravity="center_horizontal|center_vertical"
+            android:text="@string/projectEventMemberFormFragment_button_nickName" />
+       </com.hoyoji.android.hyjframework.view.HyjTextField>   
+       
+    <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/projectEventMemberFormFragment_textView_state"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:text="活动状态" />
+
+        <RadioGroup
+            android:id="@+id/projectEventMemberFormFragment_radioGroup_autoHide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/projectEventMemberFormFragment_radioButton_cancelSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取消报名" >
+            </RadioButton>
+            
+            <RadioButton
+                android:id="@+id/projectEventMemberFormFragment_radioButton_unSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未报名" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/projectEventMemberFormFragment_radioButton_signUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已报名" >
+            </RadioButton>
+            
+            <RadioButton
+                android:id="@+id/projectEventMemberFormFragment_radioButton_unSignIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未签到" >
+            </RadioButton>
+            
+            <RadioButton
+                android:id="@+id/projectEventMemberFormFragment_radioButton_signIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已签到" >
+            </RadioButton>
+        </RadioGroup>
+        
+    </LinearLayout>
+    
+    <View 
+        android:id="@+id/field_separator_friend"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+     />
+    
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/projectEventMemberFormFragment_textView_shareAuthorization_title" />
+
+	<CheckBox
+      android:id="@+id/projectEventMemberFormFragment_checkBox_shareAuthorization_self"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/memberFormFragment_textView_shareAuthorization_title_self" />
+   
+    <com.hoyoji.android.hyjframework.view.HyjDateTimeField
+        android:id="@+id/projectEventMemberFormFragment_hyjDateTimeField_startDate"
+        hyj:style="left_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        layout_gravity="center_horizonta" 
+        android:layout_gravity="right"
+        hyj:editTextBorder="none"
+        hyj:hintText="@string/projectEventMemberFormFragment_hyjDateTimeField_hint_startDate"
+        hyj:labelText="@string/projectEventMemberFormFragment_hyjDateTimeField_startDate" 
+        android:visibility="gone"/>
+    
+    <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        android:visibility="gone"
+        />
+    
+    <com.hoyoji.android.hyjframework.view.HyjDateTimeField
+        android:id="@+id/projectEventMemberFormFragment_hyjDateTimeField_endDate"
+        hyj:style="left_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        layout_gravity="center_horizonta" 
+        android:layout_gravity="right"
+        hyj:editTextBorder="none"
+        hyj:hintText="@string/projectEventMemberFormFragment_hyjDateTimeField_hint_endDate"
+        hyj:labelText="@string/projectEventMemberFormFragment_hyjDateTimeField_endDate" 
+        android:visibility="gone"/>
+    
+    <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        android:visibility="gone"
+        />
+    
+	<Button
+	    android:id="@id/button_save"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+        android:background="@drawable/button_rectangle"     
+	    android:text="@string/app_action_save"/>
+	
+	<Button
+	    android:id="@+id/button_cancel_signUp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:visibility="gone"
+        android:background="@drawable/button_rectangle"     
+	    android:text="@string/button_cancel_signUp"/>
+	
+</LinearLayout>
+
+</ScrollView>

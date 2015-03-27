@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+   <string name="moneyShareMessageFormFragment_title_addrequest">圈子共享请求</string>
+   <string name="moneyShareMessageFormFragment_title_accept">圈子共享回复</string>
+   <string name="moneyShareMessageFormFragment_title_delete">删除圈子共享</string>
+   
+   <string name="moneyShareMessageFormFragment_textView_date_send">发送时间</string>
+   <string name="moneyShareMessageFormFragment_textView_date_receive">接收时间</string>
+   
+   <string name="moneyShareMessageFormFragment_textView_fromUser">发送人</string>
+   <string name="moneyShareMessageFormFragment_textView_toUser">接收人</string>
+   <string name="moneyShareMessageFormFragment_editText_hint_toUser">无好友名称</string>
+   
+   <string name="moneyShareMessageFormFragment_textView_title">消息标题</string>
+   <string name="moneyShareMessageFormFragment_editText_hint_title">无消息标题</string>
+ 
+   <string name="moneyShareMessageFormFragment_textView_detail">消息内容</string>
+   <string name="moneyShareMessageFormFragment_editText_hint_detail">请输入消息内容</string>
+ 
+   <string name="moneyShareMessageFormFragment_button_import_income">导入成我的收入</string>
+   <string name="moneyShareMessageFormFragment_button_import_expense">导入成我的支出</string>
+   <string name="moneyShareMessageFormFragment_button_import_borrow">导入成我的借入</string>
+   <string name="moneyShareMessageFormFragment_button_import_lend">导入成我的借出</string>
+   <string name="moneyShareMessageFormFragment_button_import_depositIncome">导入成我的预收会费</string>
+   <string name="moneyShareMessageFormFragment_button_import_depositPayback">导入成我的会费收回</string>
+   <string name="moneyShareMessageFormFragment_button_import_depositReturn">导入成我的会费退款</string>
+   <string name="moneyShareMessageFormFragment_button_import_depositExpense">导入成我的预缴会费</string>
+   <string name="moneyShareMessageFormFragment_button_import_payback">导入成我的收款</string>
+   <string name="moneyShareMessageFormFragment_button_import_return">导入成我的还款</string>
+   <string name="moneyShareMessageFormFragment_button_view_transaction">查看</string>
+    
+</resources>

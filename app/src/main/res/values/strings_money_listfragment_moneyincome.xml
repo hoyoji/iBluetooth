@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="moneyIncomeListFragment_action_moneyIncome_addnew">新增收入</string>
+    <string name="moneyIncomeListFragment_title_all">全部收入</string>
+</resources>

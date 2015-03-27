@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:descendantFocusability="blocksDescendants"
+     android:background="@android:color/transparent"
+	 android:gravity="center">
+	 	<ImageButton  android:id="@id/multi_select_menu_close"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="match_parent"
+		    android:paddingLeft="10dp"
+		    android:paddingRight="10dp"
+		    android:textColor="@android:color/white"
+    		android:background="?attr/actionBarItemBackground"
+     		android:src="@drawable/ic_action_cancel_white"
+	 	    />
+	 	<ImageButton  android:id="@id/multi_select_menu_select_all"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="match_parent"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="5dp"
+		    android:textColor="@android:color/white"
+    		android:background="?attr/actionBarItemBackground"
+     		android:src="@drawable/ic_action_select_all_white"
+	 	    />
+	 	<ImageButton  android:id="@id/multi_select_menu_select_clear"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="match_parent"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="5dp"
+		    android:textColor="@android:color/white"
+    		android:background="?attr/actionBarItemBackground"
+     		android:src="@drawable/ic_action_select_clear_white"
+	 	    />
+		<TextView 
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="10dp"
+		    android:textColor="@android:color/white"
+			android:text="已选定: " 
+		    />
+		<TextView android:id="@id/multi_select_menu_count"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+		    android:textColor="@android:color/white"
+			android:text="0" />
+		
+ </LinearLayout>

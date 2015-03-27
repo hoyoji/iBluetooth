@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hoyoji="http://schemas.android.com/apk/res-auto" >
+		<item
+           android:id="@+id/homeTopup_action_money_addnew_depositExpense"
+           android:title="预缴会费 (支)"
+           hoyoji:showAsAction="never"/>
+       <item
+           android:id="@+id/homeTopup_action_money_addnew_depositIncome"
+           android:title="预收会费 (收)"
+           hoyoji:showAsAction="never"/>
+       <item
+           android:id="@+id/homeTopup_action_money_addnew_depositReturn"
+           android:title="会费退款 (支)"
+           hoyoji:showAsAction="never"/>
+       <item
+           android:id="@+id/homeTopup_action_money_addnew_depositPayback"
+           android:title="会费收回 (收)"
+           hoyoji:showAsAction="never"/>
+</menu>

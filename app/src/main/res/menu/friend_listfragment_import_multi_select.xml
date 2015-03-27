@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hoyoji="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@id/multi_select_menu_more"
+        android:icon="@drawable/ic_action_overflow_white"
+        android:title="更多"
+        hoyoji:showAsAction="always">
+        <menu>
+            <item
+		        android:id="@+id/importFriendListFragment_action_add"
+		        android:title="导入到本地好友"
+		        android:icon="@drawable/ic_action_add_person"
+		        hoyoji:showAsAction="always"/>
+		
+		    
+        </menu>
+	</item> 
+
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="exchangeListItem_autoUpdate_true">自动更新</string>
+    <string name="exchangeListItem_autoUpdate_false">不自动更新</string>
+    
+    
+</resources>

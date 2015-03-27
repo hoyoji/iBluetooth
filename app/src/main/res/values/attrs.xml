@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <declare-styleable name="AppTheme">  
+  
+    <!-- Attributes below are needed to support the navigation drawer on Android 3.x. -->  
+    <!-- A smaller, sleeker list item height. -->  
+    <attr name="hoyoji_listPreferredItemHeightSmall" format="dimension" />  
+  
+    <!-- Drawable used as a background for activated items. -->  
+    <attr name="hoyoji_activatedBackgroundIndicator" format="reference" />  
+  
+    <!-- The preferred TextAppearance for the primary text of small list items. -->  
+    <attr name="hoyoji_textAppearanceListItemSmall" format="reference" />  
+	
+	</declare-styleable>  
+	
+     <declare-styleable name="HyjTextField">
+       <attr name="minLines" format="integer" />
+       <attr name="labelText" format="string" />
+       <attr name="editText" format="string" />
+       <attr name="hintText" format="string" />
+       <attr name="trueText" format="reference" />
+       <attr name="falseText" format="reference" />
+       <attr name="style" format="string" />
+       <attr name="editTextBorder" format="string" />
+       <attr name="editTextBold" format="boolean" />
+       <attr name="editTextColor" format="color" />
+   </declare-styleable>
+   
+     
+     <declare-styleable name="HyjSpinnerField">
+       <attr name="items" format="reference" />
+   </declare-styleable>
+</resources>  

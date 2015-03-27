@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+   <string name="moneyTopupFormFragment_title_addnew">新增充值卡充值</string>
+   <string name="moneyTopupFormFragment_title_edit">充值卡充值详细</string>
+   
+   <string name="moneyTopupFormFragment_textView_picture">图片</string>
+   <string name="moneyTopupFormFragment_editText_hint_picture">请导入图片</string>
+   
+   <string name="moneyTopupFormFragment_textView_date">时间</string>
+   <string name="moneyTopupFormFragment_editText_hint_date">请选择时间</string>
+   
+   <string name="moneyTopupFormFragment_textView_transferOutAmount">转出金额</string>
+   <string name="moneyTopupFormFragment_editText_hint_transferOutAmount">请输入金额</string>
+   <string name="moneyTopupFormFragment_editText_validationError_negative_transferOutAmount">金额不能为负数</string>
+   <string name="moneyTopupFormFragment_editText_validationError_beyondMAX_transferOutAmount">金额超出范围</string>
+   
+   <string name="moneyTopupFormFragment_textView_transferOut">转出账户</string>
+   <string name="moneyTopupFormFragment_editText_hint_transferOut">请选择转出账户</string>
+   
+   <string name="moneyTopupFormFragment_textView_transferInFriend">商家好友</string>
+   <string name="moneyTopupFormFragment_editText_hint_transferInFriend">请选择商家</string>
+   
+   <string name="moneyTopupFormFragment_textView_transferIn">充值卡账户</string>
+   <string name="moneyTopupFormFragment_editText_hint_transferIn">请选择充值卡账户</string>
+  
+   <string name="moneyTopupFormFragment_textView_transferInAmount">转入金额</string>
+   <string name="moneyTopupFormFragment_editText_hint_transferInAmount">请输入金额</string>
+   <string name="moneyTopupFormFragment_editText_validationError_negative_transferInAmount">金额不能为负数</string>
+   <string name="moneyTopupFormFragment_editText_validationError_beyondMAX_transferInAmount">金额超出范围</string>
+   
+   <string name="moneyTopupFormFragment_textView_exchangeRate">汇率</string>
+   <string name="moneyTopupFormFragment_editText_hint_exchangeRate">请输入汇率</string>
+   <string name="moneyTopupFormFragment_editText_validationError_zero_exchangeRate">汇率不能为0</string>
+   <string name="moneyTopupFormFragment_editText_validationError_negative_exchangeRate">汇率不能为负数</string>
+   <string name="moneyTopupFormFragment_editText_validationError_beyondMAX_exchangeRate">汇率超出范围</string>
+   
+   <string name="moneyTopupFormFragment_toast_cannot_refresh_rate">无法获取汇率，请手工输入</string>
+   <string name="moneyTopupFormFragment_toast_select_currency">请先选择账户和圈子</string> 
+   
+   <string name="moneyTopupFormFragment_textView_project">圈子</string>
+   <string name="moneyTopupFormFragment_editText_hint_project">请选择圈子</string>
+   
+   <string name="moneyTopupFormFragment_textView_remark">备注</string>
+   <string name="moneyTopupFormFragment_editText_hint_remark">无备注</string>
+    
+   <string name="moneyTopupFormFragment_editText_validationError_same_account">同一个账户不需要转账</string>
+   
+   <string name="moneyTopupFormFragment_textView_transferOutCurrency">转出币种</string>
+   <string name="moneyTopupFormFragment_editText_hint_transferOutCurrency">请输入转出币种</string>
+   
+   <string name="moneyTopupFormFragment_textView_transferInCurrency">转入币种</string>
+   <string name="moneyTopupFormFragment_editText_hint_transferInCurrency">请输入转入币种</string>
+   
+   <string name="moneyTopupFormFragment_textView_transferProjectCurrency">圈子币种</string>
+   <string name="moneyTopupFormFragment_editText_hint_transferProjectCurrency">请输入圈子币种</string>
+   
+   <string name="moneyTopupFormFragment_textView_transferOutProjectExchangeRate">汇率</string>
+   <string name="moneyTopupFormFragment_editText_hint_transferOutProjectExchangeRate">请输入汇率</string>
+   
+   <string name="moneyTopupFormFragment_textView_projectTransferInExchangeRate">汇率</string>
+   <string name="moneyTopupFormFragment_editText_hint_projectTransferInExchangeRate">请输入汇率</string>
+</resources>

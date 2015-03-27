@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+   <string name="currencyFormFragment_title_addnew">添加货币</string>
+   <string name="currencyFormFragment_title_edit">货币详细</string>
+   
+   <string name="currencyFormFragment_toast_delete_success">币货币删除成功详细</string>
+   
+   <string name="currencyFormFragment_textView_name">货币名称</string>
+   <string name="currencyFormFragment_editText_hint_name">请输入货币名称</string>
+   
+   <string name="currencyFormFragment_textView_symbol">货币符号</string>
+   <string name="currencyFormFragment_editText_hint_symbol">请输入货币符号</string>
+    
+   <string name="currencyFormFragment_textView_code">货币代号</string>
+   <string name="currencyFormFragment_editText_hint_code">请输入货币代号</string>
+   
+   <string name="currencyFormFragment_button_setAsLocalCurrency">设为本币</string>
+    
+   <string name="currencyFormFragment_addShare_fetch_exchange">获取汇率</string>
+   <string name="currencyFormFragment_addShare_fetching_exchange">正在获取圈子币种到本币的汇率</string>
+   <string name="currencyFormFragment_addShare_cannot_fetch_exchange">获取汇率失败</string>
+   <string name="currencyFormFragment_addShare_cannot_save_exchange">保存汇率失败</string>
+   
+   
+</resources>

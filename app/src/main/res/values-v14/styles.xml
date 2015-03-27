@@ -1,0 +1,15 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+   <!--  <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+       For API-14 and above the default implementation of the navigation drawer menu is used. Below APU-14 a custom implementation is used.  
+           <item name="hoyoji_listPreferredItemHeightSmall">?android:attr/listPreferredItemHeightSmall</item>  
+           <item name="hoyoji_textAppearanceListItemSmall">?android:attr/textAppearanceListItemSmall</item>  
+           <item name="hoyoji_activatedBackgroundIndicator">?android:attr/activatedBackgroundIndicator</item>  
+       </style>  -->
+        
+</resources>

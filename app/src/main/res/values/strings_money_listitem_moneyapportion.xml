@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="moneyListItem_apportion_to_be_removed">将被移除</string>
+    <string name="moneyListItem_apportion_average_apport">平均分摊</string>
+    <string name="moneyListItem_apportion_fixed_apport">定额分摊</string>
+    <string name="moneyListItem_apportion_share_apport">占股分摊</string>
+    
+    <string name="moneyListItem_apportion_share">占股</string>
+    <string name="moneyListItem_apportion_non_project_member">非圈子成员</string>
+    <string name="moneyListItem_apportion_event_member">活动成员</string>
+    
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bindEmailFragment_title">绑定邮箱</string>
+    <string name="bindPhoneFragment_findPassword_title">找回密码</string>
+
+ 	<string name="bindEmailFragment_textView_email">电子邮箱</string>
+    <string name="bindEmailFragment_editText_hint_email">请输入邮箱地址</string>
+    
+    <string name="bindEmailFragment_textView_verificationCode">验证码</string>
+    <string name="bindEmailFragment_editText_hint_verificationCode">请确认验证码</string>
+    
+    <string name="bindEmailFragment_validation_wrong_verificationcode">验证码错误</string>
+    <string name="bindEmailFragment_validation_wrong_email">请输入有效的邮箱地址</string>
+    
+    <string name="bindEmailFragment_button_submit">提交</string>
+    <string name="bindEmailFragment_button_verify">验证</string>
+</resources>

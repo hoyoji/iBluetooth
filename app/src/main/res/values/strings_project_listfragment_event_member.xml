@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="projectEventMemberListFragment_title">活动成员</string>
+    <string name="projectEventMemberViewPagerFragment_title">活动成员</string>
+    <string name="projectEventMemberListFragment_action_member_addnew">邀请我的好友</string>
+    <string name="projectEventMemberListFragment_action_member_invite_qqFriend">邀请QQ好友</string>
+    <string name="projectEventMemberListFragment_action_member_invite_wxFriend">邀请微信好友</string>
+    <string name="projectEventMemberListFragment_action_member_invite">邀请其他好友</string>
+    
+    <string name="projectEventMemberListFragment_action_member_signIn_qqFriend">发送签到链接到QQ好友</string>
+    <string name="projectEventMemberListFragment_action_member_signIn_wxFriend">发送签到链接到微信好友</string>
+    <string name="projectEventMemberListFragment_action_member_signIn">发送签到链接到其他好友</string>
+    
+    <string name="projectEventMemberListFragment_state_wait">等待接受</string>
+    <string name="projectEventMemberListFragment_state_notinvite">尚未邀请</string>
+    
+    <string name="projectEventMemberListFragment_invite_friend">发送邀请链接</string>
+    <string name="projectEventMemberListFragment_signIn_friend">发送签到链接</string>
+    
+</resources>

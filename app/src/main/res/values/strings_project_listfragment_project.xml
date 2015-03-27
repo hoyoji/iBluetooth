@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="projectListFragment_title">圈子列表</string>
+    <string name="projectListFragment_title_subprojects">下级圈子</string>
+    <string name="projectListFragment_action_project_addnew">创建圈子</string>
+    <string name="projectListFragment_title_select_project">选择圈子</string>
+    <string name="projectListFragment_title_select_parent_project">选择上级圈子</string>
+    <string name="projectListFragment_view_transactions">圈子流水</string>
+    <string name="projectListFragment_title_shared_project">共享来的账务</string>
+    
+</resources>

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hyj="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EventFormCreateProjectDialogFragment" >
+    
+    <TextView
+	    android:id="@+id/eventFormCreateProjectDialogFragment_textView_msg"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="请选择一个圈子来记录在该活动下产生的账务"
+	    android:gravity="center"
+	    android:textSize="16sp"/>
+      
+	<Button
+	    android:id="@+id/eventFormCreateProjectDialogFragment_button_createNewProject"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+        android:background="@drawable/button_rectangle_round_5"     
+	    android:textSize="14sp"
+	    android:text="新建活动圈子"/>
+	
+	<Button
+	    android:id="@+id/eventFormCreateProjectDialogFragment_button_selectProject"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+        android:background="@drawable/button_rectangle_round_5"    
+	    android:textSize="14sp" 
+	    android:text="选择现有圈子"/>
+	
+    <TextView
+        android:id="@+id/eventFormCreateProjectDialogFragment_textView_hint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="选择活动圈子后，所有活动成员将会成为圈子成员，请谨慎选择!"
+        android:textSize="13sp" 
+        android:textColor="#008FDB"/>
+
+</LinearLayout>

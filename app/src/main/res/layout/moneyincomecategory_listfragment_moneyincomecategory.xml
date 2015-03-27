@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+   		android:paddingBottom="0dp"
+    	android:paddingLeft="0dp"
+    	android:paddingRight="0dp"
+    	android:paddingTop="0dp"  >
+
+    <FrameLayout 
+       		  android:id="@+id/moneyIncomeCategory_list_panel_mainCategory"
+              android:layout_weight="0.8"
+              android:layout_width="0dp"
+              android:layout_height="match_parent">
+    <com.hoyoji.android.hyjframework.view.HyjListView android:id="@id/android:list"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        	  android:choiceMode="singleChoice" 
+        	  android:layout_marginBottom="48dp"
+              android:divider="@drawable/line_divider"
+              android:dividerHeight="1dp"
+              android:drawSelectorOnTop="true"/>
+    <Button 
+        android:id="@+id/moneyIncomeCategory_list_button_addMainCategory"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+        android:text="新增主分类"
+        android:layout_gravity="bottom"
+        />
+    </FrameLayout>
+    
+    <FrameLayout 
+              android:layout_weight="1.2"
+              android:layout_width="0dp"
+              android:layout_height="match_parent">
+    <com.hoyoji.android.hyjframework.view.HyjListView android:id="@+id/moneyIncomeCategory_list_children"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        	  android:layout_marginBottom="48dp"
+              android:drawSelectorOnTop="true"/>
+    <Button 
+        android:id="@+id/moneyIncomeCategory_list_button_addChildCategory"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+        android:text="新增子分类"
+        android:layout_gravity="bottom"
+        />
+    </FrameLayout>
+<!-- 
+    <TextView android:id="@id/android:empty"
+        	  android:gravity="center_horizontal|center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="43dp"
+              android:background="@drawable/line_divider"
+              android:text="@string/app_listview_no_content"/> -->
+</LinearLayout>

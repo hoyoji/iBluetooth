@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp" >
+
+    <com.hoyoji.android.hyjframework.view.HyjListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:divider="@drawable/line_divider"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="false" />
+
+    <!--
+         <TextView
+        android:id="@id/android:empty"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/line_divider"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/app_listview_no_content" />
+    -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="48dp"
+        android:background="@color/hoyoji_lightgray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#EEFFFFFF"
+        android:layout_gravity="bottom" >
+
+    <!--     <Button
+            android:id="@+id/homeListFragment_action_messages"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/actionBarItemBackground"
+            android:padding="0dp"
+            android:text="消息"
+            android:textSize="16sp" /> -->
+
+        <!--
+             <Button
+            android:id="@+id/homeListFragment_action_money_transaction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:textSize="16sp"
+    		android:background="?attr/actionBarItemBackground"
+            android:text="@string/homeListFragment_action_money_transaction" />
+        -->
+
+        <Button
+            android:id="@+id/homeListFragment_action_money_expense"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/actionBarItemBackground"
+            android:padding="0dp"
+            android:text="@string/app_action_money_expense"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/homeListFragment_action_money_income"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/actionBarItemBackground"
+            android:padding="0dp"
+            android:text="@string/app_action_money_income"
+            android:textSize="16sp" />
+
+        <!-- <Button
+            android:id="@+id/homeListFragment_action_friend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/actionBarItemBackground"
+            android:padding="0dp"
+            android:text="@string/homeListFragment_action_friend"
+            android:textSize="16sp" /> -->
+
+        <!--
+             <Button
+            android:id="@+id/homeListFragment_action_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:textSize="16sp"
+    		android:background="?attr/actionBarItemBackground"
+            android:text="@string/homeListFragment_action_message" />
+        -->
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/homelistfragment_money_addnew"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/hoyoji_addnew" />
+
+</FrameLayout>

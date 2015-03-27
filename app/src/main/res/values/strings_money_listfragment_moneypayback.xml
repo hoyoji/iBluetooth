@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="moneyPaybackListFragment_action_moneyPayback_addnew">新增收款</string>
+    <string name="moneyPaybackListFragment_title_all">全部收款</string>
+</resources>

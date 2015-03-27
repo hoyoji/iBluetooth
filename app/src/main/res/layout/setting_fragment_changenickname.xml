@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".changeNickNameFormFragment" >
+
+   <LinearLayout
+        android:id="@+id/changeNickNameFormFragment_linearLayout_oldNickName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/changeNickNameFormFragment_textView_nickName"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/changeNickNameFormFragment_textView_nickName" />
+
+        <EditText
+            android:id="@+id/changeNickNameFormFragment_editText_nickName"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical|right" 
+	    	android:ellipsize="start"
+            android:hint="@string/changeNickNameFormFragment_editText_hint_nickName" 
+                android:maxLines="1"
+                android:singleLine="true">
+        </EditText>
+
+    </LinearLayout>
+	<Button
+	    android:id="@id/button_save"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+            android:background="@drawable/button_rectangle"     
+	    android:text="@string/changeNickNameFormFragment_button_onSave"/>
+	
+</LinearLayout>

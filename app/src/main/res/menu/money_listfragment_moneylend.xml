@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hoyoji="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/moneyLendListFragment_action_moneyLend_addnew"
+        android:title="@string/moneyLendListFragment_action_moneyLend_addnew"
+        android:icon="@drawable/ic_action_new_white"
+        hoyoji:showAsAction="always"/>
+
+</menu>

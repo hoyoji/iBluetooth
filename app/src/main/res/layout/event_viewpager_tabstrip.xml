@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+   		android:paddingBottom="0dp"
+    	android:paddingLeft="0dp"
+    	android:paddingRight="0dp"
+    	android:paddingTop="0dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+	    <Button android:id="@+id/eventviewpager_signup_event"
+	    	android:layout_width="56dp"
+	    	android:layout_height="56dp"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+	    	android:text="报名"
+	    	android:textSize="15sp"
+	    	android:background="@color/hoyoji_red"
+	    	android:textColor="@android:color/white"
+	    	android:visibility="gone"
+    	/>
+    	<include android:id="@+id/event_viewpager_eventdetail"
+        	layout="@layout/home_listitem_row"
+	        android:layout_width="wrap_content"
+	        android:layout_height="76dp"
+			android:layout_alignParentLeft="true"
+			android:layout_toLeftOf="@id/eventviewpager_signup_event"/>
+    	
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/hoyoji_lightgray" />
+    
+    <com.hoyoji.android.hyjframework.view.HyjTabStrip 
+        android:id="@+id/tabstrip"       
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    />
+    
+    <com.hoyoji.android.hyjframework.view.HyjViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.hoyoji.android.hyjframework.view.HyjViewPager>
+
+    
+</LinearLayout>
+

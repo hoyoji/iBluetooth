@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hyj="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MoneyApportionFieldEditDialogFragment" >
+
+    <com.hoyoji.android.hyjframework.view.HyjNumericField
+        android:id="@+id/moneyApportionDialogFragment_textField_amount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        hyj:hintText="@string/moneyApportionDialogFragment_editText_hint_amount"
+        hyj:labelText="@string/moneyApportionDialogFragment_textView_amount" >
+
+        <requestFocus />
+    </com.hoyoji.android.hyjframework.view.HyjNumericField>
+
+    <!-- <com.hoyoji.android.hyjframework.view.HyjSpinnerField
+        android:id="@+id/moneyApportionDialogFragment_spinnerField_type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        hyj:labelText="@string/moneyApportionDialogFragment_spinnerField_apportionType" >
+    </com.hoyoji.android.hyjframework.view.HyjSpinnerField> -->
+
+	<LinearLayout
+	    android:layout_width="202dp"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+		        <TextView 
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/moneyApportionDialogFragment_spinnerField_apportionType"/>
+
+		        <RadioGroup
+		            android:id="@+id/moneyApportionDialogFragment_radio_type"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="2.3" >
+
+		            <RadioButton
+		                android:id="@+id/moneyApportionDialogFragment_radio_type_average"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="平均分摊" />
+
+		            <RadioButton
+		                android:id="@+id/moneyApportionDialogFragment_radio_type_fixed"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="定额分摊" />
+
+		            <RadioButton
+		                android:id="@+id/moneyApportionDialogFragment_radio_type_share"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="占股分摊" />
+		        </RadioGroup>
+
+	</LinearLayout>
+    
+    
+    <View
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/line_divider" />
+
+    <Button
+        android:id="@+id/moneyApportionDialogFragment_button_delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_action_remove"
+        android:textColor="@color/hoyoji_red" />
+
+</LinearLayout>

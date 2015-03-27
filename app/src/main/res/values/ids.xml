@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="button_money_add_new" type="id"/>
+    
+    <item name="button_save" type="id"/>
+    <item name="button_delete" type="id"/>
+    <item name="field_separator_button_delete" type="id"/>
+    <item name="field_separator" type="id"/>
+    <item name="expand_more" type="id"/>
+    
+    <item name="text_field_label" type="id"/>
+    <item name="text_field_edit" type="id"/>
+    
+    <item name="list_item_delete" type="id"/>
+    <item name="list_item_title" type="id"/>
+    
+    <item name="list_field_listView" type="id"/>
+    <item name="list_field_listViewHeader" type="id"/>
+    
+    <item name="image_field_gridView" type="id"/>
+    
+    <item name="app_listview_footer_fetch_more" type="id"/>
+    
+    <item name="multi_select_menu_count" type="id"/>
+    <item name="multi_select_menu_close" type="id"/>
+    <item name="multi_select_menu_more" type="id"/>
+    <item name="multi_select_menu_delete" type="id"/>
+    <item name="multi_select_menu_ok" type="id"/>
+    <item name="multi_select_menu_select_all" type="id"/>
+    <item name="multi_select_menu_select_clear" type="id"/>
+
+</resources>

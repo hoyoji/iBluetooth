@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:paddingTop="10dip"
+     android:paddingBottom="10dip"
+     android:descendantFocusability="blocksDescendants">
+     
+     <com.hoyoji.android.hyjframework.view.HyjImageView android:id="@+id/moneyIncomeListItem_picture"
+         android:layout_width="56dp"
+         android:layout_height="56dp"
+         android:background="@drawable/line_divider"
+	     android:src="@drawable/ic_action_picture"
+         android:layout_gravity="center_vertical"/>
+     
+	 <LinearLayout 
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content" 
+	     android:paddingLeft="66dip"
+	     android:orientation="vertical" >
+		<TextView android:id="@+id/moneyIncomeListItem_project"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+	    	android:layout_gravity="left" 
+	    	android:textSize="12sp"
+	    	android:textColor="@android:color/darker_gray"
+	    	android:text="圈子名称" />
+		
+		<TextView android:id="@+id/moneyIncomeListItem_category"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+	    	android:layout_gravity="left" 
+	    	android:text="分类名称" />	
+	    	
+		<TextView android:id="@+id/moneyIncomeListItem_remark"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+	    	android:layout_gravity="left" 
+	    	android:textSize="12sp"
+	    	android:textColor="@android:color/darker_gray"
+	    	android:text="无备注" />	
+	</LinearLayout>
+	
+	<LinearLayout 
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_gravity="right" 
+	     android:orientation="vertical" >
+		<com.hoyoji.android.hyjframework.view.HyjDateTimeView android:id="@+id/moneyIncomeListItem_date"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+	    	android:textSize="12sp"
+	    	android:textColor="@android:color/darker_gray"
+	    	android:layout_gravity="right" />
+		
+		<com.hoyoji.android.hyjframework.view.HyjNumericView android:id="@+id/moneyIncomeListItem_amount"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+	    	android:textColor="@color/hoyoji_green"
+	    	android:layout_gravity="right" />	
+	    	
+		<TextView android:id="@+id/moneyIncomeListItem_owner"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"
+	    	android:layout_gravity="right" 
+	    	android:textSize="12sp"
+	    	android:textColor="@android:color/darker_gray"
+	    	android:text="自己" />	
+	</LinearLayout>
+
+	
+ </FrameLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!-- <item name="android:windowBackground">@android:color/background_light</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+        <item name="android:colorForeground">@android:color/background_dark</item>
+        <item name="android:colorForegroundInverse">@android:color/background_light</item> -->
+        
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>    
+        <!-- <item name="popupMenuStyle">@style/AppTheme.ActionBar.PopupMenu</item> -->
+    </style>
+    
+    <style name="AppTheme.ActionBar.PopupMenu"
+           parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@color/hoyoji_red</item>
+    </style>
+
+	
+    <style name="AppTheme.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:background">@color/hoyoji_red</item>
+        <item name="backgroundStacked">@color/hoyoji_red</item>
+        <item name="backgroundSplit">@color/hoyoji_red</item>
+    </style>
+    
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    
+    <style name="translucent">
+	 	<item name="android:windowBackground">@color/transparent</item>
+	 	<item name="android:windowIsTranslucent">true</item>
+	 	<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+	</style>
+
+    
+<declare-styleable name="BounceBackViewPager">
+    <!--
+    determines the maximum amount of translation along the z-axis during the overscroll. 
+    Default is 150.
+    -->
+    <attr name="overscroll_translation" format="dimension" />
+
+    <!-- Duration of animation when user releases the over scroll. Default is 400 ms. -->
+    <attr name="overscroll_animation_duration" format="integer" />
+</declare-styleable>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="inviteMemberFormFragment_send_title">邀请好友</string>
+    
+   <string name="inviteMemberMessageFormFragment_textView_title">消息标题</string>
+   <string name="inviteMemberMessageFormFragment_editText_hint_title">无消息标题</string>
+   
+   <string name="inviteMemberMessageFormFragment_textView_detail">消息内容</string>
+   <string name="inviteMemberMessageFormFragment_editText_hint_detail">请输入消息内容</string>
+   
+   <string name="inviteMemberMessageFormFragment_title_eventmember_addnew">添加活动成员</string>
+   
+   <string name="inviteMemberMessageFormFragment_progress_eventmember_adding">正在添加活动成员</string>
+   
+    <!---->
+   <!--<string name="memberFormFragment_title_addnew">添加圈子成员</string>-->
+   <!--<string name="memberFormFragment_title_edit">修改圈子成员</string>-->
+   <!---->
+   <!--<string name="memberFormFragment_progress_adding">正在添加圈子成员</string>-->
+   <!--<string name="memberFormFragment_progress_saving">正在保存&#8230;</string>-->
+   <!--<string name="memberFormFragment_progress_inviting">正在邀請&#8230;</string>-->
+   <!--<string name="memberFormFragment_toast_share_request_sent_success">圈子共享请求发送成功，请等待回复</string>-->
+   <!--<string name="memberFormFragment_toast_share_edit_success">保存成功</string>-->
+   <!--<string name="memberFormFragment_toast_share_add_success">成功添加圈子成员</string>-->
+   <!---->
+   <!--<string name="memberFormFragment_textView_projectName">圈子名称</string>-->
+   <!---->
+   <string name="memberFormFragment_textView_projectMoney">成员流水</string>
+   
+   <string name="inviteMemberFormFragment_textView_shareAuthorization_title">账务权限</string>
+   <string name="inviteMemberFormFragment_textView_shareAuthorization_title_self">只允许查看与自己相关的账务</string>
+   <string name="inviteMemberFormFragment_textView_shareAuthorization_title_add">允许新增账务</string>
+   <string name="inviteMemberFormFragment_textView_shareAuthorization_title_edit">允许修改自己的账务</string>
+   <string name="inviteMemberFormFragment_textView_shareAuthorization_title_delete">允许删除自己的账务</string>
+   
+   <!--<string name="memberFormFragment_textView_send_invite">发送消息给邀请好友共享圈子。\n如果不发送，您可以在该圈子下记录与该好友相关的账务，但是该好友将看不到该圈子的数据。</string>-->
+   <string name="app_action_send_invite">邀请好友共享圈子</string>
+   
+   <string name="inviteMemberFormFragment_action_invite_title">邀请成员</string>
+   <string name="inviteMemberFormFragment_action_invite_content">正在生成邀请链接&#8230;</string>
+
+</resources>

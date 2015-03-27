@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   <string name="friendFormFragment_title">好友资料</string>
+   
+   <string name="friendFormFragment_title_create">创建好友</string>
+   <string name="friendFormFragment_title_import">导入通讯录好友</string>
+   <string name="friendFormFragment_title_delete">删除好友资料</string>
+      <!-- 
+   <string name="friendFormFragment_textView_userName">用户名称</string> -->
+   
+   <string name="friendFormFragment_textView_userNickName">好友昵称</string>
+   <string name="friendFormFragment_editText_hint_userNickName">无好友昵称</string>
+   
+   <string name="friendFormFragment_textView_phoneNumber">电话号码</string>
+   <string name="friendFormFragment_editText_hint_phoneNumber">无电话号码</string>
+   
+   <string name="friendFormFragment_editText_hint_friendName">请输入好友名称</string>
+   
+   <string name="friendFormFragment_editText_error_friendPhoneNumber">电话号码已经存在</string>
+   
+   <string name="friendFormFragment_textView_nickName">备注名称</string>
+   <string name="friendFormFragment_editText_hint_nickName">请输入好友备注名称</string>
+   
+   <string name="friendFormFragment_textView_friend_category">分类名称</string>
+   <string name="friendFormFragment_editText_hint_friend_category">请选择好友分类</string>
+   
+   <string name="friendFormFragment_confirm_delete">确定删除好友，同时将我从对方好友列表中移除吗？</string>
+   <string name="friendFormFragment_toast_progress_deleting">正在从服务器上删除好友</string>
+   
+   
+   <string name="userFormFragment_button_addFriend">添加为好友</string>
+   <string name="userFormFragment_title">用户资料</string>
+   <string name="userFormFragment_textView_hint_addFriend_request">请输入添加好友请求</string>
+    
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="projectEventFormFragment_action_addnew">新增活动</string>
+    
+    <string name="projectEventFormFragment_action_edit">修改活动</string>
+    
+    <string name="projectEventFormFragment_action_select">选择活动</string>
+    
+    <string name="projectEventFormFragment_editText_hint_name">请输入活动名称</string>
+    <string name="projectEventFormFragment_textView_name">活动名称</string>
+    
+    <string name="projectEventFormFragment_hyjDateTimeField_hint_date">请输入活动创建时间</string>
+    <string name="projectEventFormFragment_hyjDateTimeField_date">创建时间</string>
+    
+    <string name="projectEventFormFragment_hyjDateTimeField_hint_startDate">请输入活动开始时间</string>
+    <string name="projectEventFormFragment_hyjDateTimeField_startDate">开始时间</string>
+    <string name="projectEventFormFragment_hyjDateTimeField_error_startDate">开始时间需在创建时间之后</string>
+    
+    <string name="projectEventFormFragment_hyjDateTimeField_hint_endDate">请输入活动结束时间</string>
+    <string name="projectEventFormFragment_hyjDateTimeField_endDate">结束时间</string>
+    <string name="projectEventFormFragment_hyjDateTimeField_error_endDate">结束时间需在开始时间之后</string>
+    
+    <string name="projectEventFormFragment_hyjSelectorField_projectName">活动圈子</string>
+    <string name="projectEventFormFragment_hyjSelectorField_hint_projectName">请选择活动圈子</string>
+    
+    <string name="projectEventFormFragment_hyjRemarkField_hint_description">请输入活动内容</string>
+    <string name="projectEventFormFragment_hyjRemarkField_description">活动内容</string>
+    <string name="projectEventFormFragment_hyjRemarkField_description_default">
+		小伙伴们，又好久不见了，一起聚聚吧！\n\n
+		地点：老地方\n
+		费用：AA\n
+		其他：可以带家属\n\n
+		温馨提示：喝酒的就别开车了
+	</string>
+    
+    <string name="projectEventFormFragment_title_edit">修改圈子活动</string>
+    
+    <string name="app_action_event_cancel">取消活动</string>
+    <string name="app_action_event_canceling">正在取消活动...</string>
+    
+    <string name="app_action_event_cancel_success">取消活动成功</string>
+    
+    <string name="projectEventFormFragment_validate_project">不能在共享的圈子新增活动</string>
+    
+    <string name="demo_name_basemap">地址</string>
+    <string name="demo_title_basemap">基本地图功能--BaseMapDemo</string>
+    <string name="demo_desc_basemap">创建一张百度地图并管理地图的生命周期</string>
+    
+    <string name="projectEventFormFragment_textView_address">地址</string>
+    <string name="projectEventFormFragment_editText_hint_address">获取地址</string>
+    
+    <string name="projectEventFormFragment_hyjRemarkField_address">地址</string>
+    
+    
+</resources>

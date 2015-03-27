@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+ 	xmlns:hyj="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FriendFormFragment" >
+    
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp" >
+        <com.hoyoji.android.hyjframework.view.HyjImageView android:id="@+id/friendFormFragment_imageView_picture"
+	         android:layout_width="56dp"
+	         android:layout_height="56dp"
+	         android:layout_gravity="center_vertical"/>
+                 
+        <TextView
+            android:id="@+id/friendFormFragment_textField_userName1"
+       		android:layout_gravity="center_vertical"
+       		android:paddingLeft="80dp"
+       		android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+        
+	<com.hoyoji.android.hyjframework.view.HyjSelectorField 
+            android:id="@+id/friendFormFragment_selectorField_friend_category"
+		    android:layout_width="fill_parent"
+		    android:layout_height="43dp" 
+            hyj:labelText="@string/friendFormFragment_textView_friend_category"
+            hyj:hintText="@string/friendFormFragment_editText_hint_friend_category"
+        />
+
+	    <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+
+    <com.hoyoji.android.hyjframework.view.HyjTextField 
+            android:id="@+id/friendFormFragment_textField_userNickName"
+		    android:layout_width="fill_parent"
+		    android:layout_height="43dp" 
+            hyj:labelText="@string/friendFormFragment_textView_userNickName"
+            hyj:hintText="@string/friendFormFragment_editText_hint_userNickName"
+        />	
+	 <View 
+        android:id="@+id/field_separator_userNickName"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+	
+    <com.hoyoji.android.hyjframework.view.HyjTextField 
+            android:id="@+id/friendFormFragment_textField_nickName"
+		    android:layout_width="fill_parent"
+		    android:layout_height="43dp" 
+		    hyj:hintText="@string/friendFormFragment_editText_hint_nickName"
+            hyj:labelText="@string/friendFormFragment_textView_nickName"
+        />
+    
+	 <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+    
+   	    <com.hoyoji.android.hyjframework.view.HyjTextField 
+            android:id="@+id/friendFormFragment_textField_phoneNumber"
+		    android:layout_width="fill_parent"
+		    android:layout_height="43dp" 
+            hyj:labelText="@string/friendFormFragment_textView_phoneNumber"
+            hyj:hintText="@string/friendFormFragment_editText_hint_phoneNumber"
+        />	
+    
+        <View 
+        android:id="@id/field_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+    	android:layout_marginTop="5dip"
+    	android:layout_marginBottom="5dip"
+        android:background="@drawable/line_divider" 
+        />
+        
+	<Button
+	    android:id="@id/button_save"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+    	android:layout_marginTop="20dip"
+            android:background="@drawable/button_rectangle"     
+	    android:text="@string/app_action_save"/>
+	
+<!-- 暂不支持删除
+    <Button
+        android:id="@id/button_delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+            android:background="@drawable/button_rectangle"     
+        android:text="@string/app_action_delete"
+        android:textColor="hoyoji_red" /> -->
+</LinearLayout>

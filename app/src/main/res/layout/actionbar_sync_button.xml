@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="56dp"
+    android:layout_height="match_parent"
+    android:background="?attr/actionBarItemBackground"
+    android:minWidth="56dp" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+    	android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/actionbar_sync_Image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_refresh_white" />
+
+        <TextView
+            android:id="@+id/actionbar_sync_downloadCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/actionbar_sync_uploadCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </FrameLayout>
+
+</FrameLayout>

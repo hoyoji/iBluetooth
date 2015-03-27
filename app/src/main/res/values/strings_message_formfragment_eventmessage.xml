@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+   <string name="eventMessageFormFragment_title_addrequest">活动邀请请求</string>
+   <string name="eventMessageFormFragment_title_accept">接受活动邀请</string>
+   <string name="eventMessageFormFragment_title_signIn">活动签到</string>
+   <string name="eventMessageFormFragment_title_Cancel">取消活动</string>
+   <string name="eventMessageFormFragment_title_cancelSignUp">取消报名</string>
+   <string name="eventMessageFormFragment_title_signUp">活动报名</string>
+   <string name="eventMessageFormFragment_title_edit">修改活动邀请</string>
+   <string name="eventMessageFormFragment_title_delete">删除活动邀请</string>
+   
+   <string name="eventMessageFormFragment_textView_date_send">发送时间</string>
+   <string name="eventMessageFormFragment_textView_date_receive">接收时间</string>
+   
+   <string name="eventMessageFormFragment_textView_fromUser">发送人</string>
+   <string name="eventMessageFormFragment_textView_toUser">接收人</string>
+   <string name="eventMessageFormFragment_editText_hint_toUser">无好友名称</string>
+   
+   <string name="eventMessageFormFragment_textView_title">消息标题</string>
+   <string name="eventMessageFormFragment_editText_hint_title">无消息标题</string>
+ 
+   <string name="eventMessageFormFragment_textView_detail">消息内容</string>
+   <string name="eventMessageFormFragment_editText_hint_detail">请输入消息内容</string>
+ 
+   <string name="eventMessageFormFragment_button_resend">重新发送</string>
+   <string name="eventMessageFormFragment_button_accept">接受邀请</string>
+   
+   <string name="eventListFragment_title_addMember">添加圈子成员</string>
+   <string name="eventListFragment_addMember_progress_adding">正在添加圈子成员&#8230;</string>
+   
+   <string name="eventListFragment_title_acceptShare">接受活动邀请</string>
+   <string name="eventListFragment_acceptShare_progress_adding">正在接受活动邀请&#8230;</string>
+   
+   <string name="eventListFragment_signUp_request">活动报名</string>
+   <string name="eventListFragment_signUp_progress_request">正在接受活动报名&#8230;</string>
+   
+   <string name="eventListFragment_unSignIn_request">更新报名状态</string>
+   <string name="eventListFragment_unSignIn_progress_request">更新报名状态，请稍后&#8230;</string>
+   
+   <string name="eventListFragment_signIn_request">活动签到</string>
+   <string name="eventListFragment_signIn_progress_request">正在接受活动签到&#8230;</string>
+   
+   <string name="eventMessageFormFragment_toast_resend_success">添加活动邀请请求已重新发送，请等待该用户回复</string>
+   <string name="eventMessageFormFragment_toast_accept_success">已成功接受活动邀请</string>
+   <string name="eventMessageFormFragment_toast_cannot_get_user">无法从服务器上获取活动邀请资料，操作失败</string>
+   <string name="eventMessageFormFragment_addShare_already_exists">该活动已经已经报名</string>
+   
+   <string name="eventMessageFormFragment_addShare_fetch_exchange">获取汇率</string>
+   <string name="eventMessageFormFragment_addShare_fetching_exchange">正在获取圈子币种到本币的汇率</string>
+   <string name="eventMessageFormFragment_addShare_cannot_fetch_exchange">当前无法获取圈子币种到本币的汇率，是否要手工创建该汇率？</string>
+   
+    
+</resources>

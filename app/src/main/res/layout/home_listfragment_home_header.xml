@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="10dip"
+     android:descendantFocusability="blocksDescendants">
+		<LinearLayout 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:orientation="vertical"
+	 		android:gravity="center_horizontal">
+		    <TextView 
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		        android:text="当月个人收入"
+            	android:textColor="@android:color/darker_gray"
+		        android:textSize="11sp"/>
+		    <TextView android:id="@+id/home_stat_incomeStat"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="¥0.00"/>
+		</LinearLayout>
+		<LinearLayout 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:orientation="vertical"
+	 		android:gravity="center_horizontal">
+		    <TextView 
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		        android:text="当月个人支出"
+            	android:textColor="@android:color/darker_gray"
+		        android:textSize="11sp"/>
+		    <TextView  android:id="@+id/home_stat_expenseStat"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="¥0.00"/>
+		</LinearLayout>
+		
+ </LinearLayout>

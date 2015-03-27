@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hoyoji="http://schemas.android.com/apk/res-auto" >
+    	
+    <item
+        android:id="@id/multi_select_menu_ok"
+        android:icon="@drawable/ic_action_accept_white"
+        android:title="选择"
+        hoyoji:showAsAction="always"/> 
+
+</menu>

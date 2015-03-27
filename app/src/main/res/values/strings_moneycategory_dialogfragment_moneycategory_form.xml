@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string name="moneyCategoryFormDialogFragment_title_addnew">新增分类</string>
+   <string name="moneyCategoryFormDialogFragment_title_edit">修改分类</string>
+   <string name="moneyCategoryFormDialogFragment_title_manage_expense">支出分类管理</string>
+   <string name="moneyCategoryFormDialogFragment_title_manage_income">收入分类管理</string>
+   
+   <string name="moneyCategoryFormDialogFragment_textView_name">分类名称</string>
+   <string name="moneyCategoryFormDialogFragment_editText_hint_name">请输入分类名称</string>
+   
+   
+</resources>

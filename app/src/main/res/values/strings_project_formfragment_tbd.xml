@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+   <string name="eventMemberTBDFormFragment_title_split">拆分待定成员</string>
+   
+   <string name="eventMemberTBDFormFragment_title_transactions">拆分账务</string>
+   
+   <string name="eventMemberTBDFormFragment_progress_splitting">正在拆分待定成员&#8230;</string>
+   <string name="eventMemberTBDFormFragment_progress_uploading_data">正在上传新数据到服务器&#8230;</string>
+   <string name="eventMemberTBDFormFragment_toast_split_success">成功拆分待定成员</string>
+   
+   <string name="eventMemberTBDFormFragment_textView_eventName">活动名称</string>
+   
+   <string name="eventMemberTBDFormFragment_textView_message">把该活动下所有账务中的待定成员进行拆分。\n\n拆分后，该笔账务的待定成员所占的金额将按下面的拆分规则重新分配给各成员。</string>
+   
+   <string name="eventMemberTBDFormFragment_checkBox_delete_tbd">拆分成功后，删除账务中的待定成员\n删除待定成员后将不能再次拆分账务</string>
+   
+
+</resources>

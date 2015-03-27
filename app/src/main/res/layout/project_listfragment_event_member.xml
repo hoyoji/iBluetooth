@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+   		android:paddingBottom="0dp"
+    	android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+    	android:paddingTop="@dimen/activity_vertical_margin" >
+    	
+<!--         
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/eventMemberListFragment_action_all_event_member"
+            android:background="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:textSize="16sp"
+            android:text="全部" />
+
+        <Button
+            android:id="@+id/eventMemberListFragment_action_sign_up_member"
+            android:background="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:textSize="16sp"
+            android:text="已报名" />
+        
+        <Button
+            android:id="@+id/eventMemberListFragment_action_un_sign_in_member"
+            android:background="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:textSize="16sp"
+            android:text="未签到" />
+        
+        <Button
+            android:id="@+id/eventMemberListFragment_action_sign_in_member"
+            android:background="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:textSize="16sp"
+            android:text="已签到" />
+        <Button
+            android:id="@+id/eventMemberListFragment_action_cancel_sign_up_member"
+            android:background="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:textSize="16sp"
+            android:text="已取消" />
+     </LinearLayout>
+      -->
+<!--     
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="top"
+        android:layout_marginTop="40dip"
+        android:background="@color/hoyoji_lightgray" /> -->
+
+    <com.hoyoji.android.hyjframework.view.HyjListView android:id="@id/android:list"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:divider="@drawable/line_divider"
+              android:dividerHeight="1dp"
+              android:drawSelectorOnTop="false"
+              android:layout_marginTop="0dp"
+              android:layout_marginBottom="0dip"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="48dp"
+        android:background="@color/hoyoji_lightgray" />
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#EEFFFFFF"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/projectListFragment_action_money_account"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/actionBarItemBackground"
+            android:padding="0dp"
+            android:text="@string/homeListFragment_action_money_account"
+            android:visibility="invisible"
+            android:textSize="16sp" />
+       
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1" />
+    </LinearLayout>
+              
+        <ImageButton 
+            android:id="@+id/eventmember_listfragment_addnew"
+	        android:layout_width="55dp"
+	        android:layout_height="55dp"
+	        android:layout_gravity="center_horizontal|bottom"
+	        android:background="@drawable/hoyoji_addnew"
+        />
+
+
+</FrameLayout>

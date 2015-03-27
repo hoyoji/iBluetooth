@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   <string name="friendCategoryFormFragment_title_create">创建好友分类</string>
+   <string name="friendCategoryFormFragment_title_edit">好友分类资料</string>
+   
+   <string name="friendCategoryFormFragment_textView_name">分类名称</string>
+   <string name="friendCategoryFormFragment_editText_hint_name">请输入好友分类名称</string>
+   
+    
+</resources>

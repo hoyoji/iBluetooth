@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="homeListFragment_action_report">报表</string>
+    <string name="homeListFragment_action_sync">同步</string>
+    <string name="homeListFragment_action_more">更多</string>
+    <string name="homeListFragment_action_friend">好友</string>
+    <string name="homeListFragment_action_message">消息</string>
+    <string name="homeListFragment_action_money_transaction">流水</string>
+    <string name="homeListFragment_action_money_account">资产账户</string>
+    <string name="homeListFragment_action_display_transaction_type_personal">显示个人流水</string>
+    <string name="homeListFragment_action_display_transaction_type_project">显示圈子流水</string>
+
+</resources>

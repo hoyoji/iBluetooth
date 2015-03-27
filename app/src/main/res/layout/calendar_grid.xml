@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="5.0"
+    android:orientation="vertical" >
+
+ 	<LinearLayout
+ 	    android:id="@+id/calendar_grid_row1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+ 	    android:id="@+id/calendar_grid_row2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+ 	    android:id="@+id/calendar_grid_row3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+ 	    android:id="@+id/calendar_grid_row4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+ 	    android:id="@+id/calendar_grid_row5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+ 	    android:id="@+id/calendar_grid_row6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+    </LinearLayout>
+    
+
+</merge>

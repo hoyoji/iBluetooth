@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="projectEventMemberFormFragment_action_addnew">邀请活动好友</string>
+    
+    <string name="projectEventMemberFormFragment_action_edit">成员资料</string>
+    
+    <string name="projectEventMemberFormFragment_editText_hint_name">请输入圈子活动名称</string>
+    <string name="projectEventMemberFormFragment_textView_name">圈子活动名称</string>
+    
+    <string name="projectEventMemberFormFragment_hyjDateTimeField_hint_date">请输入活动创建时间</string>
+    <string name="projectEventMemberFormFragment_hyjDateTimeField_date">活动创建时间</string>
+    
+    <string name="projectEventMemberFormFragment_hyjDateTimeField_hint_startDate">请输入活动开始时间</string>
+    <string name="projectEventMemberFormFragment_hyjDateTimeField_startDate">活动开始时间</string>
+    <string name="projectEventMemberFormFragment_hyjDateTimeField_error_startDate">开始时间需在创建时间之后</string>
+    
+    <string name="projectEventMemberFormFragment_hyjDateTimeField_hint_endDate">请输入活动结束时间</string>
+    <string name="projectEventMemberFormFragment_hyjDateTimeField_endDate">活动结束时间</string>
+    <string name="projectEventMemberFormFragment_hyjDateTimeField_error_endDate">结束时间需在开始时间之后</string>
+    
+    <string name="projectEventMemberFormFragment_textView_projectName">圈子</string>
+    
+    <string name="projectEventMemberFormFragment_textView_eventName">活动</string>
+    
+    <string name="projectEventMemberFormFragment_hyjRemarkField_hint_description">请输入活动内容</string>
+    <string name="projectEventMemberFormFragment_hyjRemarkField_description">活动内容</string>
+    
+    <string name="projectEventMemberFormFragment_selectorField_hint_friend">请选择活动好友</string>
+    <string name="projectEventMemberFormFragment_selectorField_friend">好友</string>
+    
+    <string name="projectEventMemberFormFragment_title_edit">修改圈子成员</string>
+    
+    <string name="projectEventMemberFormFragment_toast_friend_already_exists">该好友已经是活动成员</string>
+    
+    <string name="projectEventMemberFormFragment_toast_eventMember_add_success">成功发送邀请</string>
+    
+    <string name="projectEventMemberFormFragment_toast_eventMember_add_projectAuthorization">好友不是共享成员，请先添加共享成员</string>
+    
+    <string name="button_cancel_signUp">取消报名</string>
+    
+    <string name="projectEventMemberFormFragment_hyjTextField_hint_nickName">无昵称</string>
+    <string name="projectEventMemberFormFragment_hyjTextField_nickName">活动昵称</string>
+    
+    <string name="projectEventMemberFormFragment_button_nickName">设置</string>
+    
+    <string name="projectEventMemberFormFragment_eventMember_cancel">取消报名</string>
+    <string name="projectEventMemberFormFragment_eventMember_canceling">正在取消报名...</string>
+    
+    <string name="projectEventMemberFormFragment_eventMember_cancel_success">取消报名成功</string>
+    
+    <string name="projectEventMemberFormFragment_textView_shareAuthorization_title">活动权限</string>
+    
+</resources>

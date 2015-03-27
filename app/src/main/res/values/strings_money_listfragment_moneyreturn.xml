@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="moneyReturnListFragment_action_moneyReturn_addnew">新增还款</string>
+    <string name="moneyReturnListFragment_title_all">全部还款</string>
+</resources>

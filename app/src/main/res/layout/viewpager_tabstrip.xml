@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+   		android:paddingBottom="0dp"
+    	android:paddingLeft="0dp"
+    	android:paddingRight="0dp"
+    	android:paddingTop="0dp" >
+
+    <com.hoyoji.android.hyjframework.view.HyjTabStrip 
+        android:id="@+id/tabstrip"       
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    />
+    <com.hoyoji.android.hyjframework.view.HyjViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.hoyoji.android.hyjframework.view.HyjViewPager>
+
+</LinearLayout>

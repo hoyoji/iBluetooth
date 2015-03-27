@@ -1,0 +1,69 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hoyoji="http://schemas.android.com/apk/res-auto" >
+    <!-- <item
+        android:id="@+id/projectEventMemberListFragment_action_member_edit"
+        android:title="@string/projectEventListFragment_action_edit"
+        android:icon="@drawable/ic_action_edit_white"
+        hoyoji:showAsAction="always">
+	</item>
+     -->
+    <item
+        android:id="@+id/projectEventMemberListFragment_action_member_add"
+        android:title="@string/projectEventMemberListFragment_title"
+        android:icon="@drawable/ic_action_new_white"
+        hoyoji:showAsAction="always">
+        <menu>
+            <item
+		        android:id="@+id/projectEventMemberListFragment_action_add"
+		        android:title="@string/projectEventMemberListFragment_action_member_addnew"
+		        android:icon="@drawable/ic_action_new_white"
+		        hoyoji:showAsAction="always"/>
+            <item
+		        android:id="@+id/projectEventMemberListFragment_invite_friend"
+		        android:title="@string/projectEventMemberListFragment_invite_friend"
+		        android:icon="@drawable/ic_action_new_white"
+		        hoyoji:showAsAction="always"/>
+		    <item
+		        android:id="@+id/projectEventMemberListFragment_signIn_friend"
+		        android:title="@string/projectEventMemberListFragment_signIn_friend"
+		        android:icon="@drawable/ic_action_cc_bcc"
+		        hoyoji:showAsAction="always"/>
+            <!-- <item
+		        android:id="@+id/projectEventMemberListFragment_action_add"
+		        android:title="@string/projectEventMemberListFragment_action_member_addnew"
+		        android:icon="@drawable/ic_action_new_white"
+		        hoyoji:showAsAction="always"/>
+		    <item
+		        android:id="@+id/projectEventMemberListFragment_action_member_invite_qqFriend"
+		        android:title="@string/projectEventMemberListFragment_action_member_invite_qqFriend"
+		        android:icon="@drawable/ic_action_cc_bcc"
+		        hoyoji:showAsAction="always"/>
+		    <item
+		        android:id="@+id/projectEventMemberListFragment_action_member_invite_wxFriend"
+		        android:title="@string/projectEventMemberListFragment_action_member_invite_wxFriend"
+		        android:icon="@drawable/ic_action_cc_bcc"
+		        hoyoji:showAsAction="always"/>
+		    <item
+		        android:id="@+id/projectEventMemberListFragment_action_member_invite"
+		        android:title="@string/projectEventMemberListFragment_action_member_invite"
+		        android:icon="@drawable/ic_action_cc_bcc"
+		        hoyoji:showAsAction="always"/>
+		    <item
+		        android:id="@+id/projectEventMemberListFragment_action_member_signIn_qqFriend"
+		        android:title="@string/projectEventMemberListFragment_action_member_signIn_qqFriend"
+		        android:icon="@drawable/ic_action_cc_bcc"
+		        hoyoji:showAsAction="always"/>
+		    <item
+		        android:id="@+id/projectEventMemberListFragment_action_member_signIn_wxFriend"
+		        android:title="@string/projectEventMemberListFragment_action_member_signIn_wxFriend"
+		        android:icon="@drawable/ic_action_cc_bcc"
+		        hoyoji:showAsAction="always"/>
+		    <item
+		        android:id="@+id/projectEventMemberListFragment_action_member_signIn"
+		        android:title="@string/projectEventMemberListFragment_action_member_signIn"
+		        android:icon="@drawable/ic_action_cc_bcc"
+		        hoyoji:showAsAction="always"/> -->
+        </menu>
+	</item>
+
+</menu>

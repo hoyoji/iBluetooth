@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="moneyLendListFragment_action_moneyLend_addnew">新增借出</string>
+    <string name="moneyLendListFragment_title_all">全部借出</string>
+</resources>

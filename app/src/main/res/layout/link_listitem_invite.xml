@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:paddingTop="10dip"
+     android:paddingBottom="10dip"
+     android:paddingRight="5dp"
+     android:paddingLeft="5dp"
+     android:descendantFocusability="blocksDescendants">
+
+     <com.hoyoji.android.hyjframework.view.HyjImageView android:id="@+id/friendListItem_add_picture"
+         android:layout_width="56dp"
+         android:layout_height="56dp"
+         android:background="@drawable/ic_action_person"
+         android:layout_gravity="center_vertical"/>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <TextView android:id="@+id/inviteFriendLinkListItem_state"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"  
+		    android:layout_gravity="center_vertical"
+		    android:layout_alignParentLeft="true"
+		    android:textColor="@android:color/darker_gray"
+		    android:textSize="12sp"
+		    android:text="aaa"
+		    android:paddingLeft="10dp"  />
+        
+        <com.hoyoji.android.hyjframework.view.HyjDateTimeView
+            android:id="@+id/inviteFriendLinkListItem_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true"
+            android:textColor="@android:color/darker_gray"
+            android:text="bbb"
+            android:textSize="12sp" />
+		
+		<!-- <TextView android:id="@+id/inviteFriendLinkListItem_date"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"  
+		    android:layout_gravity="center_vertical"
+		    android:layout_alignParentRight="true"
+		    android:textColor="@android:color/darker_gray"
+		    android:textSize="12sp"
+		    android:text="bbb"
+		    android:paddingLeft="10dp"  /> -->
+		
+		<TextView android:id="@+id/inviteFriendLinkListItem_type"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"  
+		    android:layout_gravity="center_vertical"
+		    android:layout_below="@+id/inviteFriendLinkListItem_state"
+		    android:text="ccc"
+		    android:paddingLeft="10dp"  />
+		
+		<TextView android:id="@+id/inviteFriendLinkListItem_description"  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"  
+		    android:layout_gravity="center_vertical"
+		    android:layout_below="@+id/inviteFriendLinkListItem_type"
+		    android:textColor="@android:color/darker_gray"
+		    android:textSize="12sp"
+		    android:text="ddd"
+		    android:paddingLeft="10dp"  />
+	</RelativeLayout>
+
+ </LinearLayout>

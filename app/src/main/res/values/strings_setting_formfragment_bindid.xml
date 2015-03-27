@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bindIDFragment_title">绑定账户</string>
+    
+ 	<string name="bindIDFragment_textView_email">电子邮箱</string>
+    <string name="bindIDFragment_editText_hint_email">未绑定</string>
+    <string name="bindIDFragment_button_emailBinding">绑定</string>
+    <string name="bindIDFragment_toast_unBindEmail">解绑QQ</string>
+    
+    <string name="bindIDFragment_textView_phone">手机</string>
+    <string name="bindIDFragment_editText_hint_phone">未绑定</string>
+    <string name="bindIDFragment_button_phoneBinding">绑定</string>
+    
+    <string name="bindIDFragment_textView_QQ">QQ帐户</string>
+    <string name="bindIDFragment_editText_hint_QQ">未绑定</string>
+    <string name="bindIDFragment_button_QQBinding">绑定</string>
+    <string name="bindIDFragment_toast_unBindQQ">解绑QQ</string>
+    <string name="bindIDFragment_toast_unBindingQQ">正在解绑QQ&#8230;</string>
+    
+    <string name="bindIDFragment_textView_WX">微信帐户</string>
+    <string name="bindIDFragment_editText_hint_WX">未绑定</string>
+    <string name="bindIDFragment_button_WXBinding">绑定</string>
+    <string name="bindIDFragment_toast_unBindWX">解绑微信</string>
+    <string name="bindIDFragment_toast_unBindingWX">正在解绑微信&#8230;</string>
+    
+    <string name="bindIDFragment_textView_WB">微博帐户</string>
+    <string name="bindIDFragment_editText_hint_WB">未绑定</string>
+    <string name="bindIDFragment_button_WBBinding">绑定</string>
+    <string name="bindIDFragment_toast_unBindWB">解绑微博</string>
+    <string name="bindIDFragment_toast_unBindingWB">正在解绑微博&#8230;</string>
+    
+    
+</resources>

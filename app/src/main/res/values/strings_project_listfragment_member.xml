@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="memberListFragment_title">圈子成员</string>
+    <string name="memberListFragment_action_member_addnew">新增共享好友</string>
+    <string name="memberListFragment_action_member_invite_qqFriend">邀请QQ好友</string>
+    <string name="memberListFragment_action_member_invite_wxFriend">邀请微信好友</string>
+    <string name="memberListFragment_action_member_invite_wxCircleFriend">邀请朋友圈好友</string>
+    <string name="memberListFragment_action_member_invite">邀请其他好友</string>
+    
+    <string name="memberListFragment_state_wait">等待接受</string>
+    <string name="memberListFragment_state_notinvite">尚未邀请</string>
+    
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   <string name="addFriendListFragment_title_add">添加好友</string>
+   
+   <string name="friendListFragment_addFriend_searchView_hint">请输入用户名或昵称</string>
+   
+   <string name="friendListFragment_addFriend_error_exists">该用户已经是您的好友</string>
+   
+   <string name="friendListFragment_addFriend_progress_adding">正在从服务器上添加好友</string>
+   <string name="friendListFragment_addFriend_progress_add_success">添加好友成功</string>
+   
+   <string name="friendListFragment_addFriend_addSelf_title">您确定添加自己为好友？</string>
+   <string name="friendListFragment_addFriend_toast_send_success">添加好友请求已发送，请等待该用户回复</string>
+</resources>

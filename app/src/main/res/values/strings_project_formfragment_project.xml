@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+   <string name="projectFormFragment_title_addnew">创建圈子</string>
+   <string name="projectFormFragment_title_edit">圈子资料</string>
+   
+   <string name="projectFormFragment_textView_projectName">圈子名称</string>
+   <string name="projectFormFragment_editText_hint_projectName">请输入圈子名称</string>
+   
+   <string name="projectFormFragment_textView_projectRemarkName">备注名称</string>
+   <string name="projectFormFragment_editText_hint_projectRemarkName">请输入备注名称</string>
+   
+   <string name="projectFormFragment_textView_parentProject">上级圈子</string>
+   <string name="projectFormFragment_editText_hint_parentProject">无上级圈子</string>
+    
+   <string name="projectFormFragment_textView_projectCurrency">结算币种</string>
+   <string name="projectFormFragment_editText_hint_projectCurrency">请选择结算币种</string>
+   
+   <string name="projectFormFragment_checkBox_autoApportion">自动分摊</string>
+   <string name="projectFormFragment_checkBox_hint_autoApportion">新增账务时，账务金额在成员间自动分摊</string>
+   
+   <string name="projectFormFragment_textView_hint_financialOwner">建议在多人记账的团体活动设财务负责人</string>
+   
+   <string name="projectFormFragment_textView_hint_projectCurrency">圈子下所有账务将被换算成结算币种显示</string>
+   
+   <string name="projectFormFragment_textView_financialOwner">财务负责人</string>
+   <string name="projectFormFragment_editText_hint_financialOwner">无财务负责人</string>
+   
+   <string name="projectFormFragment_parentProject_topProject">顶级圈子</string>
+  
+   <string name="projectFormFragment_editText_error_financialOwner_cannot_local">财务负责人不能为本地好友</string>
+   <string name="projectFormFragment_editText_error_financialOwner_must_be_member">财务负责人必须为圈子成员</string>
+   <string name="projectFormFragment_editText_error_financialOwner_must_be_accepted_member">财务负责人必须接受圈子共享</string>
+   <string name="projectFormFragment_editText_error_financialOwner_must_has_all_auth">财务负责人必须有查看全部财务权限</string>
+   
+</resources>

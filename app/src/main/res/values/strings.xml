@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iBluetooth</string>
+    
+    <string name="app_please_select">请选择</string>
+    
+    <string name="app_action_more">更多</string>
+    <string name="app_action_edit">修改</string>
+    <string name="app_action_search">查找</string>
+    <string name="app_action_save">保存</string>
+    <string name="app_action_save_template">保存成模板</string>
+    <string name="app_action_remove">移除</string>
+    <string name="app_action_delete">删除</string>
+    <string name="app_action_delete_list_item">删除</string>
+    <string name="app_action_cancel_list_item">取消</string>
+    
+    <string name="app_validation_error">表单中包含错误</string>
+    <string name="app_save_success">保存成功</string>
+    <string name="app_save_template_success">保存成功</string>
+    
+    <string name="app_no_remark">无备注</string>
+    <string name="app_listfield_add">添加</string>
+    <string name="app_confirm_delete">你确定要删除当前记录吗？</string>
+    <string name="app_confirm_exit">你确定退出吗？</string>
+    <string name="app_delete_success">删除成功</string>
+    <string name="app_delete_failed">删除不成功</string>
+    
+    <string name="app_listview_no_content">无内容</string>
+    <string name="app_listview_footer_fetch_no_more">无更多</string>
+    <string name="app_listview_footer_fetch_more">更多&#8230;</string>
+    <string name="app_listview_footer_fetching_more">加载中&#8230;</string>
+	
+	<string name="server_connection_disconnected">您尚未连接到网络</string>
+    <string name="server_connection_error">无法连接到服务器</string>
+    <string name="server_dataparse_error">无法解析服务器返回的数据</string>
+    
+    <string name="app_preview_picture">照片浏览</string>
+    <string name="app_take_picture">拍照</string>
+    <string name="app_import_picture">从相册导入</string>
+    
+    <string name="app_action_money_expense">支出</string>
+    <string name="app_action_money_income">收入</string>
+    <string name="app_action_money_transfer">转账</string>
+    <string name="app_action_money_debt">借贷</string>
+    <string name="app_action_money_template">快记</string>
+    <string name="app_action_money_topup">会费</string>
+    
+    <string name="app_permission_no_addnew">抱歉，您在该圈子没有新增权限</string>
+    <string name="app_permission_no_edit">抱歉，这笔账务不是您的或者您在该圈子没有修改权限</string>
+    <string name="app_permission_no_delete">抱歉，您没有删除该圈子相关账务的权限</string>
+    
+    <string name="app_toast_new_messages">您有 %1$d 条新消息</string>
+    
+    <string name="app_moneyaccount_anonymous">匿名借贷账户 </string>
+    
+    <!-- 功能列表 -->
+    <string name="weibosdk_demo_feature_oauth">微博授权</string>
+    <string name="weibosdk_demo_feature_share">分享到微博</string>
+    <string name="weibosdk_demo_feature_login_logout">登录注销按钮</string>
+    <string name="weibosdk_demo_feature_open_api">开放接口（Open API）</string>
+
+    <!-- 获取 Token -->
+    <string name="weibosdk_demo_obtain_token_via_sso">SSO（单点登录）授权</string>
+    <string name="weibosdk_demo_obtain_token_via_signature">Web 授权</string>
+    <string name="weibosdk_demo_obtain_token_via_code">通过 Code 获取 Token</string>
+    <string name="weibosdk_demo_token_info">Token 信息：</string>
+    <string name="weibosdk_demo_token_has_existed">Token 仍在有效期内，无需再次登录。</string>
+    <string name="weibosdk_demo_obtain_token_hint"><b>请注意：</b>\n<li>SSO 登录需要微博客户端的支持，目前仅 3.0.0 及以上微博客户端版本支持 SSO；如果未安装，将自动转为 Oauth2.0 Web 授权认证（即第一种认证方式）</li>\n<li>如果您通过方式一和方式二获取不到 Token，而是获取到 code，那说明您的包名和签名存在问题，请到开放平台注册包名和签名。详情请查看 FAQ 文档</li></string>
+    <string name="weibosdk_demo_obtain_token_via_sso_hint">使用 SSO 登录前，请检查手机上是否已经安装新浪微博客户端，目前仅 3.0.0 及以上微博客户端版本支持 SSO；如果未安装，将自动转为 Oauth2.0 进行认证。</string>
+    <string name="weibosdk_demo_obtain_token_via_code_hint"><b>请注意：</b>基于以下几点原因，您可能不想使用前面的两种授权方式：\n<li>出于安全性的考虑，您不信任目前使用应用的包名和签名来获取 Token 的方式</li>\n<li>您不想安装微博客户端</li>\n您可以自行通过 Code 来获取 Token。通过这种方式需要使用到 APP_SECRET，请务必妥善保管好自己的 APP_SECRET，<b>不要直接暴露在程序中，泄露有风险</b>。\n<b>更多细节请查看：</b><a href="http://open.weibo.com/wiki/%E6%8E%88%E6%9D%83%E6%9C%BA%E5%88%B6%E8%AF%B4%E6%98%8E#Web.E5.BA.94.E7.94.A8.E7.9A.84.E9.AA.8C.E8.AF.81.E6.8E.88.E6.9D.83">验证授权步骤</a></string>
+    <string name="weibosdk_demo_step_to_obtain_code">第一步：获取 Code</string>
+    <string name="weibosdk_demo_step_to_obtain_token">第二步：通过 Code 获取 Token</string>
+    <string name="weibosdk_demo_code_text_hint">第一步获取到的 Code：（一次性有效）</string>
+    <string name="weibosdk_demo_token_text_hint">第二步获取到的 Token：</string>
+    <string name="weibosdk_demo_token_to_string_format">Token：%1$s \nRefresh Token：%2$s \nexpires_in：%3$s</string>
+    <string name="weibosdk_demo_token_to_string_format_1">Token：%1$s \n有效期：%2$s</string>
+    <string name="weibosdk_demo_toast_auth_success">授权成功</string>
+    <string name="weibosdk_demo_toast_auth_failed">授权失败</string>
+    <string name="weibosdk_demo_toast_auth_canceled">取消授权</string>
+    <string name="weibosdk_demo_toast_obtain_code_success">获取 Code 成功</string>
+    <string name="weibosdk_demo_toast_obtain_code_failed">获取 Code 失败</string>
+    <string name="weibosdk_demo_toast_obtain_token_success">获取 Token 成功</string>
+    <string name="weibosdk_demo_toast_obtain_token_failed">获取 Token 失败</string> 
+    
+    <string name="errcode_success">登录成功，请稍后</string>
+	<string name="errcode_cancel">登录取消</string>
+	<string name="errcode_deny">发送被拒绝</string>
+	<string name="errcode_unknown">发送返回</string>
+	
+	<string name="un_read_message">未读消息</string>
+	<string name="all_message">全部消息</string>
+	
+	<string name="currency_exchang_eviewpager_listFragment_title">币种汇率</string>
+	
+	<string name="expense_income_viewpager_listFragment_title">收支分类</string>
+	
+</resources>

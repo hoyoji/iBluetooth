@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="moneyAccountListFragment_action_moneyAccount_addnew">创建账户</string>
+    
+    <string name="moneyAccountListFragment_title_manage_moneyAccount">账户管理</string>
+    <string name="moneyAccountListFragment_title_select_moneyAccount">选择账户</string>
+    <string name="moneyAccountListFragment_title_select_currency">选择币种</string>
+    
+    <string name="moneyAccountListFragment_title_moneyAccount_transactions">账户流水</string>
+    <string name="moneyAccountListFragment_title_moneyAccountDebt_transactions">借贷账户流水</string>
+    
+</resources>

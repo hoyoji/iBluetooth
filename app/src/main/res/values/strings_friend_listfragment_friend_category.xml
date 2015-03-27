@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="friendCategoryListFragment_action_create">创建好友分类</string>
+    <string name="friendCategoryListFragment_title_select_friend_category">选择好友分类</string>
+    
+</resources>
